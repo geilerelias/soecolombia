@@ -2,9 +2,9 @@
     <v-app style="min-height:70vh">
         <section>
             <v-img
-                height="350"
-                gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
                 :src="require('@/images/header/quienes-somos.jpg')"
+                gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
+                height="350"
             >
                 <v-row
                     class="fill-height text-center align-center justify-center"
@@ -16,10 +16,10 @@
                             ¿Quienes Somos?
                         </h1>
                         <v-breadcrumbs
-                            dark
-                            color="white"
-                            class="justify-center white--text"
                             :items="links"
+                            class="justify-center white--text"
+                            color="white"
+                            dark
                         ></v-breadcrumbs>
                     </v-col>
                 </v-row>
@@ -30,7 +30,7 @@
             <v-row>
                 <v-col class="col-md-6 col-12">
                     <h2 class="mb-4 display-1">
-                        Soy Empoderamiento.<br />
+                        Soy Empoderamiento.<br/>
                         SOE Colombia.
                     </h2>
                     <p class="subtitle-1 text-justify">
@@ -58,10 +58,10 @@
                 <v-row>
                     <v-col cols="12" md="6">
                         <v-card
-                            tile
-                            elevation="0"
-                            color="transparent"
                             class="white--text"
+                            color="transparent"
+                            elevation="0"
+                            tile
                         >
                             <v-card-title primary-title>
                                 MISIÓN
@@ -90,10 +90,10 @@
                     </v-col>
                     <v-col cols="12" md="6">
                         <v-card
-                            tile
-                            elevation="0"
-                            color="transparent"
                             class="white--text"
+                            color="transparent"
+                            elevation="0"
+                            tile
                         >
                             <v-card-title primary-title>
                                 VISIÓN
@@ -118,15 +118,15 @@
                 </v-row>
             </v-container>
         </section>
-        <br />
+        <br/>
         <v-container>
             <div class="text-center">
-                <v-avatar size="65" color="secondary lighten-2">
-                    <v-avatar size="56" color="primary" dark>
+                <v-avatar color="secondary lighten-2" size="65">
+                    <v-avatar color="primary" dark size="56">
                         <v-icon dark>mdi-account-group</v-icon>
                     </v-avatar>
                 </v-avatar>
-                <br />
+                <br/>
                 <p class="primary--text headline font-weight-black">
                     Grupo de Apoyo
                 </p>
@@ -134,54 +134,68 @@
                     class="base-body body-1 mx-auto grey--text text--darken-1 text-center mb-10"
                     style="max-width: 700px;"
                 >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Libero, in! Asperiores, impedit libero. Veniam rerum saepe
-                    unde nihil possimus quibusdam esse accusamus mollitia magni
-                    fuga.
+                    Somos un equipo de profesionales que facilitamos la promoción al diálogo y a la reflexión entre
+                    mujeres. Propiciamos espacios idóneos para empoderar a la mujer construyendo un mejor futuro.
                 </p>
             </div>
         </v-container>
 
-        <v-container>
-            <v-row>
-                <v-col cols="6" md="3" v-for="item in group" :key="item.name">
+        <!--     equipo-->
+        <v-container grid-list-xl>
+
+            <div class="layout justify-center wrap">
+                <div
+                    v-for="(item, index) in group"
+                    :key="index"
+                    class="flex xs12 sm6 md4 lg3"
+                >
                     <v-hover v-slot:default="{ hover }">
-                        <v-card
-                            height="400"
-                            class="mx-auto"
-                            color="grey lighten-4"
-                        >
-                            <v-img height="400" :src="item.img">
-                                <v-expand-transition>
-                                    <div
-                                        v-if="hover"
-                                        class="d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text"
-                                        style="height: 100%;"
-                                    >
-                                        <v-container
-                                            style="height:400px"
-                                            class="body-2"
+                        <div>
+                            <v-card
+                                class="mx-auto" color="grey lighten-4"
+                                height="350"
+                                width="250"
+                            >
+                                <v-img :src="item.img" height="350" width="250">
+                                    <v-expand-transition>
+                                        <div
+                                            v-if="hover"
+                                            class="d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text"
+                                            style="height: 100%;"
                                         >
-                                            <p>{{ item.description }}</p>
-                                        </v-container>
-                                    </div>
-                                </v-expand-transition>
-                            </v-img>
-                        </v-card>
+                                            <v-container
+                                                class="body-2 primary darken-4"
+                                                style="height:400px "
+
+                                            >
+                                                <perfect-scrollbar>
+                                                    <p class="pa-6 text-justify" v-html="item.description"></p>
+                                                </perfect-scrollbar>
+                                            </v-container>
+                                        </div>
+                                    </v-expand-transition>
+                                </v-img>
+                            </v-card>
+                            <v-card class="mx-auto" flat
+                                    width="250">
+                                <h3 class="title font-weight-black primary--text mb-2">
+                                    {{ item.name }}
+                                </h3>
+                                <div class="font-weight-light subtitle-2 mb-2">
+                                    {{ item.profession }}<br/>
+                                </div>
+                                <p
+                                    class="base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10"
+                                    style="max-width: 700px;"
+                                    v-html="item.others"
+                                ></p>
+
+                            </v-card>
+                        </div>
                     </v-hover>
-                    <h3 class="title font-weight-black primary--text mb-2">
-                        {{ item.name }}
-                    </h3>
-                    <div class="font-weight-light subtitle-2 mb-2">
-                        {{ item.profession }}<br />
-                    </div>
-                    <p
-                        class="base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10"
-                        style="max-width: 700px;"
-                        v-html="item.others"
-                    ></p>
-                </v-col>
-            </v-row>
+
+                </div>
+            </div>
         </v-container>
 
         <!--  <div class="layout justify-center wrap">
@@ -228,7 +242,7 @@
         </div> -->
 
         <v-container>
-            <video ref="videoPlayer" autoplay controls class="mb-0 pb-0">
+            <video ref="videoPlayer" autoplay class="mb-0 pb-0" controls>
                 <source
                     src="videos/Video 9. Papel de la mujer en la sociedad.mp4"
                     type="video/mp4"
@@ -280,7 +294,10 @@ export default {
                     profession: "INGENIERA DE SISTEMAS",
                     others: `Magíster en Marketing & Dirección Comercial<br/>
                     Magíster en Gobierno de TI`,
-                    description: `Investigadora, Asesora de emprendimientos digitales <br/> www.jenissagbini.com`
+                    description: `
+                    Ingeniera de Sistemas con MSc en Marketing y Dirección Comercial y con MSc en Gobierno de Tecnologías de la Información. <br/>
+                    Con amplia experiencia en Estrategias comerciales, manejo del recurso humano y capacitación. <br/>
+                    Docente Universitaria, Investigadora, Asesora Tecnológica y Conferencista Internacional.`
                 },
                 {
                     img: "images/group/RODRIGO ALBERTO TABORDA APONTE.png",
@@ -351,6 +368,15 @@ export default {
                     medios diagnósticos de los cuales se dispone en la actualidad.`
                 },
                 {
+                    img:
+                        "images/group/Alexandra Aponte Sagbini.jpg",
+                    name: "Alexandra Aponte Sagbini",
+                    email: "alexandraapontesagbini@hotmail.com",
+                    profession: "Psicóloga",
+                    others: `Especialista en Negocios Internacionales. Investigadora.`,
+                    description: `Psicóloga, Especialista en Negocios Internacionales. Investigadora. Amplia experiencia en Comunicaciones, Relaciones Internacionales, Negociación y manejo del Talento Humano.`
+                },
+                {
                     img: "images/group/ANGELA MARÍA BICENTY MENDOZA.png",
                     name: "ANGELA MARÍA BICENTY MENDOZA",
                     email: "anyela64@hotmail.com",
@@ -384,7 +410,17 @@ export default {
                     sentido de sus vidas y la orientación de su misión según el eje estructurador del
                     seguimiento de Jesús. En este sentido, la asesoría es una pedagogía Cristo céntrica:
                     busca hacer de Jesucristo el centro de la vida de las personas y de las comunidades.`
-                }
+                },
+                {
+                    img:
+                        "images/group/Carmen Adriana Blanco Niño.jpg",
+                    name: "Carmen Adriana Blanco Niño",
+                    email: "yayablanco@gmail.com",
+                    profession: "Abogada",
+                    others: `especialista en Investigación Criminal e intervención en juicio oral`,
+                    description: `Abogada Egresados de la universidad de la Sabana (10 de marzo de 1989) especialista en Investigación Criminal e intervención en juicio oral ,  6 diplomados en derechos de las mujeres , es experta y consultora internacional (en Colombia y en Estados Unidos, Mexico, Guatemala, El Salvador, NicAragua, Costa Rica, Peru y EcuaDor) en Litigación Oral, investigación criminal, investigación y juzgamiento de violencia contra mujeres y personas LGBTI y responsabilidad penal médica y promotora y defensora de DDHH para mujeres, LGBTI y personas con afectación a su salud mental.`
+                },
+
             ]
         };
     }
@@ -392,6 +428,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.ps {
+    height: 350px;
+}
+
 .v-card--reveal {
     align-items: center;
     bottom: 0;

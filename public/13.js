@@ -9,13 +9,70 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 //
 //
 //
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    local: false;
+  },
+  watch: {
+    local: function local(val) {
+      cosole.log("get", val);
+      return this.drawer;
+    }
+  },
+  computed: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])("drawer")), {}, {
+    localDrawer: {
+      get: function get() {
+        cosole.log("get");
+        return this.drawer;
+      },
+      set: function set(val) {
+        console.log("drawer", val);
+        this.setDrawer(val);
+      }
+    }
+  }),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])("setDrawer"))
+});
 
 /***/ }),
 
@@ -34,7 +91,55 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    drawer\n")])
+  return _c(
+    "v-navigation-drawer",
+    {
+      attrs: { app: "", temporary: "" },
+      model: {
+        value: _vm.local,
+        callback: function($$v) {
+          _vm.local = $$v
+        },
+        expression: "local"
+      }
+    },
+    [
+      _c(
+        "v-img",
+        {
+          attrs: {
+            dark: "",
+            height: "200px",
+            src: "images/fotos/bcbc1336-d827-4047-9804-13db455d6467.JPG"
+          }
+        },
+        [
+          _c(
+            "v-row",
+            {
+              staticClass: "lightbox white--text pa-2 fill-height",
+              attrs: { align: "end" }
+            },
+            [
+              _c("v-col", [
+                _c("div", { staticClass: "subheading" }, [
+                  _vm._v("Maria Victoria Aponte")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "body-1" }, [
+                  _vm._v("contacto@mvictoriaaponte.com")
+                ])
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v("\n    " + _vm._s(_vm.localDrawer) + "\n    ")
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true

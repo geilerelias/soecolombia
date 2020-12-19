@@ -9,13 +9,6 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 //
 //
 //
@@ -169,10 +162,155 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      selectedItem: 0,
+      items: [{
+        text: 'My Files',
+        icon: 'mdi-folder'
+      }, {
+        text: 'Shared with me',
+        icon: 'mdi-account-multiple'
+      }, {
+        text: 'Starred',
+        icon: 'mdi-star'
+      }, {
+        text: 'Recent',
+        icon: 'mdi-history'
+      }, {
+        text: 'Offline',
+        icon: 'mdi-check-circle'
+      }, {
+        text: 'Uploads',
+        icon: 'mdi-upload'
+      }, {
+        text: 'Backups',
+        icon: 'mdi-cloud-upload'
+      }],
+      admins: [['Management', 'mdi-account-multiple-outline'], ['Settings', 'mdi-cog-outline']],
+      cruds: [['Create', 'mdi-plus-outline'], ['Read', 'mdi-file-outline'], ['Update', 'mdi-update'], ['Delete', 'mdi-delete']],
+      drawer: false,
       fab: false,
       fixed: false,
       itemsNoMasViolencia: [{
@@ -196,8 +334,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       value: false
     };
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])(["drawer"])),
-  methods: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapMutations"])(["setDrawer"])), {}, {
+  methods: {
     toTop: function toTop() {
       this.$vuetify.goTo(0);
     },
@@ -213,7 +350,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         this.fixed = false;
       }
     }
-  })
+  }
 });
 
 /***/ }),
@@ -301,11 +438,9 @@ var render = function() {
             "v-app-bar",
             {
               staticClass: "white--text",
-              attrs: { dense: "", color: "primary", dark: "", fixed: _vm.fixed }
+              attrs: { fixed: _vm.fixed, color: "primary", dark: "", dense: "" }
             },
             [
-              _c("v-app-bar-nav-icon", { staticClass: "hidden-lg-and-up" }),
-              _vm._v(" "),
               _c(
                 "v-toolbar-title",
                 { staticClass: "font-weight-black headline " },
@@ -341,10 +476,10 @@ var render = function() {
                                 _vm._g(
                                   {
                                     attrs: {
-                                      text: "",
-                                      to: "/no-mas-violencia",
                                       color: "white",
-                                      dark: ""
+                                      dark: "",
+                                      text: "",
+                                      to: "/no-mas-violencia"
                                     }
                                   },
                                   on
@@ -370,7 +505,10 @@ var render = function() {
                             { key: index, attrs: { href: item.link } },
                             [
                               _c("v-list-item-title", [
-                                _vm._v(_vm._s(item.title))
+                                _vm._v(
+                                  _vm._s(item.title) +
+                                    "\n                            "
+                                )
                               ])
                             ],
                             1
@@ -397,10 +535,10 @@ var render = function() {
                                 _vm._g(
                                   {
                                     attrs: {
-                                      text: "",
-                                      to: "/empoderamiento",
                                       color: "white",
-                                      dark: ""
+                                      dark: "",
+                                      text: "",
+                                      to: "/empoderamiento"
                                     }
                                   },
                                   on
@@ -426,7 +564,10 @@ var render = function() {
                             { key: index, attrs: { to: item.link } },
                             [
                               _c("v-list-item-title", [
-                                _vm._v(_vm._s(item.title))
+                                _vm._v(
+                                  _vm._s(item.title) +
+                                    "\n                            "
+                                )
                               ])
                             ],
                             1
@@ -453,10 +594,10 @@ var render = function() {
                                 _vm._g(
                                   {
                                     attrs: {
-                                      text: "",
-                                      to: "/servicios",
                                       color: "white",
-                                      dark: ""
+                                      dark: "",
+                                      text: "",
+                                      to: "/servicios"
                                     }
                                   },
                                   on
@@ -482,7 +623,10 @@ var render = function() {
                             { key: index, attrs: { href: item.link } },
                             [
                               _c("v-list-item-title", [
-                                _vm._v(_vm._s(item.title))
+                                _vm._v(
+                                  _vm._s(item.title) +
+                                    "\n                            "
+                                )
                               ])
                             ],
                             1
@@ -501,6 +645,274 @@ var render = function() {
                   _c("v-btn", { attrs: { text: "", to: "/contactenos" } }, [
                     _vm._v("Contáctenos")
                   ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("v-app-bar-nav-icon", {
+                staticClass: "hidden-lg-and-up",
+                attrs: { color: "white" },
+                on: {
+                  click: function($event) {
+                    _vm.drawer = !_vm.drawer
+                  }
+                }
+              })
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-navigation-drawer",
+        {
+          attrs: { app: "", temporary: "" },
+          model: {
+            value: _vm.drawer,
+            callback: function($$v) {
+              _vm.drawer = $$v
+            },
+            expression: "drawer"
+          }
+        },
+        [
+          _c(
+            "v-list",
+            [
+              _c(
+                "v-list-item",
+                [
+                  _c(
+                    "v-list-item-avatar",
+                    [
+                      _c("v-img", {
+                        attrs: {
+                          src: "https://cdn.vuetifyjs.com/images/john.png"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-list-item",
+                { attrs: { link: "" } },
+                [
+                  _c(
+                    "v-list-item-content",
+                    [
+                      _c("v-list-item-title", { staticClass: "title" }, [
+                        _vm._v(
+                          "\n                        John Leider\n                    "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("v-list-item-subtitle", [_vm._v("john@vuetifyjs.com")])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-list-item-action",
+                    [_c("v-icon", [_vm._v("mdi-menu-down")])],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-divider"),
+          _vm._v(" "),
+          _c(
+            "v-list",
+            { attrs: { nav: "", dense: "" } },
+            [
+              _c(
+                "v-list-item-group",
+                {
+                  attrs: { color: "primary" },
+                  model: {
+                    value: _vm.selectedItem,
+                    callback: function($$v) {
+                      _vm.selectedItem = $$v
+                    },
+                    expression: "selectedItem"
+                  }
+                },
+                _vm._l(_vm.items, function(item, i) {
+                  return _c(
+                    "v-list-item",
+                    { key: i },
+                    [
+                      _c(
+                        "v-list-item-icon",
+                        [
+                          _c("v-icon", {
+                            domProps: { textContent: _vm._s(item.icon) }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-list-item-content",
+                        [
+                          _c("v-list-item-title", {
+                            domProps: { textContent: _vm._s(item.text) }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                }),
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-list",
+            [
+              _c(
+                "v-list-item",
+                [
+                  _c(
+                    "v-list-item-icon",
+                    [_c("v-icon", [_vm._v("mdi-home")])],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("v-list-item-title", [_vm._v("Home")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-list-group",
+                {
+                  attrs: { value: true, "prepend-icon": "mdi-account-circle" },
+                  scopedSlots: _vm._u([
+                    {
+                      key: "activator",
+                      fn: function() {
+                        return [_c("v-list-item-title", [_vm._v("Users")])]
+                      },
+                      proxy: true
+                    }
+                  ])
+                },
+                [
+                  _vm._v(" "),
+                  _c(
+                    "v-list-group",
+                    {
+                      attrs: { value: true, "no-action": "", "sub-group": "" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "activator",
+                          fn: function() {
+                            return [
+                              _c(
+                                "v-list-item-content",
+                                [_c("v-list-item-title", [_vm._v("Admin")])],
+                                1
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _vm._l(_vm.admins, function(ref, i) {
+                        var title = ref[0]
+                        var icon = ref[1]
+                        return _c(
+                          "v-list-item",
+                          { key: i, attrs: { link: "" } },
+                          [
+                            _c("v-list-item-title", {
+                              domProps: { textContent: _vm._s(title) }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "v-list-item-icon",
+                              [
+                                _c("v-icon", {
+                                  domProps: { textContent: _vm._s(icon) }
+                                })
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-list-group",
+                    {
+                      attrs: { "no-action": "", "sub-group": "" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "activator",
+                          fn: function() {
+                            return [
+                              _c(
+                                "v-list-item-content",
+                                [_c("v-list-item-title", [_vm._v("Actions")])],
+                                1
+                              )
+                            ]
+                          },
+                          proxy: true
+                        }
+                      ])
+                    },
+                    [
+                      _vm._v(" "),
+                      _vm._l(_vm.cruds, function(ref, i) {
+                        var title = ref[0]
+                        var icon = ref[1]
+                        return _c(
+                          "v-list-item",
+                          { key: i, attrs: { link: "" } },
+                          [
+                            _c("v-list-item-title", {
+                              domProps: { textContent: _vm._s(title) }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "v-list-item-icon",
+                              [
+                                _c("v-icon", {
+                                  domProps: { textContent: _vm._s(icon) }
+                                })
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      })
+                    ],
+                    2
+                  )
                 ],
                 1
               )
@@ -529,11 +941,11 @@ var render = function() {
             }
           ],
           attrs: {
-            fab: "",
+            bottom: "",
             color: "primary",
             dark: "",
+            fab: "",
             fixed: "",
-            bottom: "",
             right: ""
           },
           on: { click: _vm.toTop }

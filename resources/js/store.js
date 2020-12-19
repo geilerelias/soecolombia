@@ -27,6 +27,7 @@ const store = new Vuex.Store({
     },
     mutations: {
         setDrawer(state, v) {
+            console.log(v);
             state.drawer = v;
         },
         setSearch(state, v) {

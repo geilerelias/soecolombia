@@ -1,16 +1,16 @@
 <template>
     <div>
         <v-card
+            :class="fixed ? 'mb-2' : 'mb-0'"
+            class="mb-0 pb-0"
             color="white"
             flat
             tile
-            class="mb-0 pb-0"
-            :class="fixed ? 'mb-2' : 'mb-0'"
         >
             <v-toolbar
+                :class="$vuetify.breakpoint.smAndDown ? 'my-4' : ''"
                 :prominent="$vuetify.breakpoint.smAndDown ? false : true"
                 class="elevation-0  d-flex align-center align-stretch"
-                :class="$vuetify.breakpoint.smAndDown ? 'my-4' : ''"
             >
                 <v-toolbar-title
                     class="primary--text font-weight-black display-1 light text-truncate"
@@ -34,20 +34,18 @@
                                 ? 'headline font-weight-black'
                                 : ''
                         "
-                        >Soy Empoderamiento</span
+                    >Soy Empoderamiento</span
                     >
                 </v-toolbar-title>
             </v-toolbar>
             <v-app-bar
-                dense
-                color="primary"
-                class="white--text"
-                dark
                 :fixed="fixed"
+                class="white--text"
+                color="primary"
+                dark
+                dense
             >
-                <v-app-bar-nav-icon
-                    class="hidden-lg-and-up"
-                ></v-app-bar-nav-icon>
+
                 <v-toolbar-title class="font-weight-black headline ">
                     SOE Colombia
                 </v-toolbar-title>
@@ -58,11 +56,11 @@
                     <v-menu offset-y open-on-hover>
                         <template v-slot:activator="{ on }">
                             <v-btn
-                                text
-                                to="/no-mas-violencia"
+                                v-on="on"
                                 color="white"
                                 dark
-                                v-on="on"
+                                text
+                                to="/no-mas-violencia"
                             >
                                 No mas violencia
                             </v-btn>
@@ -74,8 +72,9 @@
                                 :href="item.link"
                             >
                                 <v-list-item-title>{{
-                                    item.title
-                                }}</v-list-item-title>
+                                        item.title
+                                    }}
+                                </v-list-item-title>
                             </v-list-item>
                         </v-list>
                     </v-menu>
@@ -83,11 +82,11 @@
                     <v-menu offset-y open-on-hover>
                         <template v-slot:activator="{ on }">
                             <v-btn
-                                text
-                                to="/empoderamiento"
+                                v-on="on"
                                 color="white"
                                 dark
-                                v-on="on"
+                                text
+                                to="/empoderamiento"
                             >
                                 Empoderamiento
                             </v-btn>
@@ -99,8 +98,9 @@
                                 :to="item.link"
                             >
                                 <v-list-item-title>{{
-                                    item.title
-                                }}</v-list-item-title>
+                                        item.title
+                                    }}
+                                </v-list-item-title>
                             </v-list-item>
                         </v-list>
                     </v-menu>
@@ -108,11 +108,11 @@
                     <v-menu offset-y open-on-hover>
                         <template v-slot:activator="{ on }">
                             <v-btn
-                                text
-                                to="/servicios"
+                                v-on="on"
                                 color="white"
                                 dark
-                                v-on="on"
+                                text
+                                to="/servicios"
                             >
                                 Servicios
                             </v-btn>
@@ -124,8 +124,9 @@
                                 :href="item.link"
                             >
                                 <v-list-item-title>{{
-                                    item.title
-                                }}</v-list-item-title>
+                                        item.title
+                                    }}
+                                </v-list-item-title>
                             </v-list-item>
                         </v-list>
                     </v-menu>
@@ -133,18 +134,137 @@
                     <v-btn text to="/tienda">Tienda</v-btn>
                     <v-btn text to="/contactenos">Contáctenos</v-btn>
                 </v-toolbar-items>
+                <v-app-bar-nav-icon
+                    class="hidden-lg-and-up"
+                    color="white"
+                    @click="drawer=!drawer"
+                />
+
             </v-app-bar>
         </v-card>
+
+        <v-navigation-drawer v-model="drawer" app temporary>
+            <v-list>
+                <v-list-item>
+                    <v-list-item-avatar>
+                        <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
+                    </v-list-item-avatar>
+                </v-list-item>
+
+                <v-list-item link>
+                    <v-list-item-content>
+                        <v-list-item-title class="title">
+                            John Leider
+                        </v-list-item-title>
+                        <v-list-item-subtitle>john@vuetifyjs.com</v-list-item-subtitle>
+                    </v-list-item-content>
+
+                    <v-list-item-action>
+                        <v-icon>mdi-menu-down</v-icon>
+                    </v-list-item-action>
+                </v-list-item>
+            </v-list>
+            <v-divider></v-divider>
+            <v-list
+                nav
+                dense
+            >
+                <v-list-item-group
+                    v-model="selectedItem"
+                    color="primary"
+                >
+                    <v-list-item
+                        v-for="(item, i) in items"
+                        :key="i"
+                    >
+                        <v-list-item-icon>
+                            <v-icon v-text="item.icon"></v-icon>
+                        </v-list-item-icon>
+
+                        <v-list-item-content>
+                            <v-list-item-title v-text="item.text"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-item-group>
+            </v-list>
+            <v-list>
+                <v-list-item>
+                    <v-list-item-icon>
+                        <v-icon>mdi-home</v-icon>
+                    </v-list-item-icon>
+
+                    <v-list-item-title>Home</v-list-item-title>
+                </v-list-item>
+
+                <v-list-group
+                    :value="true"
+                    prepend-icon="mdi-account-circle"
+                >
+                    <template v-slot:activator>
+                        <v-list-item-title>Users</v-list-item-title>
+                    </template>
+
+                    <v-list-group
+                        :value="true"
+                        no-action
+                        sub-group
+                    >
+                        <template v-slot:activator>
+                            <v-list-item-content>
+                                <v-list-item-title>Admin</v-list-item-title>
+                            </v-list-item-content>
+                        </template>
+
+                        <v-list-item
+                            v-for="([title, icon], i) in admins"
+                            :key="i"
+                            link
+                        >
+                            <v-list-item-title v-text="title"></v-list-item-title>
+
+                            <v-list-item-icon>
+                                <v-icon v-text="icon"></v-icon>
+                            </v-list-item-icon>
+                        </v-list-item>
+                    </v-list-group>
+
+                    <v-list-group
+                        no-action
+                        sub-group
+                    >
+                        <template v-slot:activator>
+                            <v-list-item-content>
+                                <v-list-item-title>Actions</v-list-item-title>
+                            </v-list-item-content>
+                        </template>
+
+                        <v-list-item
+                            v-for="([title, icon], i) in cruds"
+                            :key="i"
+                            link
+                        >
+                            <v-list-item-title v-text="title"></v-list-item-title>
+
+                            <v-list-item-icon>
+                                <v-icon v-text="icon"></v-icon>
+                            </v-list-item-icon>
+                        </v-list-item>
+                    </v-list-group>
+                </v-list-group>
+            </v-list>
+
+        </v-navigation-drawer>
+
         <v-btn
             v-show="fab"
-            fab
+            v-scroll="onScroll"
+            bottom
             color="primary"
             dark
+            fab
             fixed
-            bottom
             right
             @click="toTop"
-            v-scroll="onScroll"
         >
             <v-icon>mdi-chevron-up</v-icon>
         </v-btn>
@@ -152,14 +272,34 @@
 </template>
 
 <script>
-import { mapState, mapMutations } from "vuex";
 export default {
     data() {
         return {
+            selectedItem: 0,
+            items: [
+                { text: 'My Files', icon: 'mdi-folder' },
+                { text: 'Shared with me', icon: 'mdi-account-multiple' },
+                { text: 'Starred', icon: 'mdi-star' },
+                { text: 'Recent', icon: 'mdi-history' },
+                { text: 'Offline', icon: 'mdi-check-circle' },
+                { text: 'Uploads', icon: 'mdi-upload' },
+                { text: 'Backups', icon: 'mdi-cloud-upload' },
+            ],
+            admins: [
+                ['Management', 'mdi-account-multiple-outline'],
+                ['Settings', 'mdi-cog-outline'],
+            ],
+            cruds: [
+                ['Create', 'mdi-plus-outline'],
+                ['Read', 'mdi-file-outline'],
+                ['Update', 'mdi-update'],
+                ['Delete', 'mdi-delete'],
+            ],
+            drawer: false,
             fab: false,
             fixed: false,
             itemsNoMasViolencia: [
-                { title: "Sexismo", link: "/no-mas-violencia#sexismo" },
+                {title: "Sexismo", link: "/no-mas-violencia#sexismo"},
                 {
                     title: "Un relato sobre vivencias guardadas de mujeres",
                     link: "/no-mas-violencia#testimonios"
@@ -170,18 +310,15 @@ export default {
                     title: "Emprendimiento Económico",
                     link: "/empoderamiento#emprendimiento-económico"
                 },
-                { title: "Testimonios", link: "/empoderamiento#testimonios" }
+                {title: "Testimonios", link: "/empoderamiento#testimonios"}
             ],
-            itemsServicios: [{ title: "Cursos", link: "/servicios#cursos" }],
+            itemsServicios: [{title: "Cursos", link: "/servicios#cursos"}],
             value: false
         };
     },
-    computed: {
-        ...mapState(["drawer"])
-    },
+
 
     methods: {
-        ...mapMutations(["setDrawer"]),
         toTop() {
             this.$vuetify.goTo(0);
         },

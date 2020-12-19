@@ -66146,6 +66146,7 @@ var store = new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
   },
   mutations: {
     setDrawer: function setDrawer(state, v) {
+      console.log(v);
       state.drawer = v;
     },
     setSearch: function setSearch(state, v) {

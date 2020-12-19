@@ -249,6 +249,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -273,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
         name: "JENIS DEL CARMEN SAGBINI ECHÁVEZ",
         profession: "INGENIERA DE SISTEMAS",
         others: "Mag\xEDster en Marketing & Direcci\xF3n Comercial<br/>\n                    Mag\xEDster en Gobierno de TI",
-        description: "Investigadora, Asesora de emprendimientos digitales <br/> www.jenissagbini.com"
+        description: "\n                    Ingeniera de Sistemas con MSc en Marketing y Direcci\xF3n Comercial y con MSc en Gobierno de Tecnolog\xEDas de la Informaci\xF3n. <br/>\n                    Con amplia experiencia en Estrategias comerciales, manejo del recurso humano y capacitaci\xF3n. <br/>\n                    Docente Universitaria, Investigadora, Asesora Tecnol\xF3gica y Conferencista Internacional."
       }, {
         img: "images/group/RODRIGO ALBERTO TABORDA APONTE.png",
         name: "RODRIGO ALBERTO TABORDA APONTE",
@@ -303,6 +317,13 @@ __webpack_require__.r(__webpack_exports__);
         others: "",
         description: "M\xE9dico especialista en Gastroenterolog\xEDa, y Medicina Interna,\n                    atento para servir a la comunidad. Con capacidad para dise\xF1ar, planear y desarrollar\n                    programas orientados a la prevenci\xF3n y promoci\xF3n de la salud, espec\xEDficamente diagn\xF3stico\n                    y tratamiento de enfermedades gastrointestinales, y hep\xE1ticas. Es de destacar que como\n                    internista evito la atomizaci\xF3n en el cuidado del enfermo, brindando un cuidado integral\n                    a adolescentes, adultos y ancianos, con base en una formaci\xF3n cient\xEDfica y human\xEDstica,\n                    con alta precisi\xF3n diagn\xF3stica, actualizado, con criterio estricto y gran prudencia de los\n                    medios diagn\xF3sticos de los cuales se dispone en la actualidad."
       }, {
+        img: "images/group/Alexandra Aponte Sagbini.jpg",
+        name: "Alexandra Aponte Sagbini",
+        email: "alexandraapontesagbini@hotmail.com",
+        profession: "Psicóloga",
+        others: "Especialista en Negocios Internacionales. Investigadora.",
+        description: "Psic\xF3loga, Especialista en Negocios Internacionales. Investigadora. Amplia experiencia en Comunicaciones, Relaciones Internacionales, Negociaci\xF3n y manejo del Talento Humano."
+      }, {
         img: "images/group/ANGELA MARÍA BICENTY MENDOZA.png",
         name: "ANGELA MARÍA BICENTY MENDOZA",
         email: "anyela64@hotmail.com",
@@ -316,6 +337,13 @@ __webpack_require__.r(__webpack_exports__);
         profession: "SENTIDO PROFUNDO DE LA ORIENTACIÓN ESPIRITUAL",
         others: "",
         description: "Como orientadores de la fe, antes de ejercer nuestra misi\xF3n\n                    y en su ejercicio, tenemos claro el sentido profundo de la misma, es decir,\n                    la meta o el horizonte hacia donde deben encaminarse las personas, la cual es:\n                    el seguimiento de Jes\xFAs. La asesor\xEDa, en tanto que pedagog\xEDa de fe cristiana,\n                    tiene como objeto esencial la formaci\xF3n de disc\xEDpulos de Jesucristo, hombres y\n                    mujeres adultos en la fe, personas que van configurando de forma responsable el\n                    sentido de sus vidas y la orientaci\xF3n de su misi\xF3n seg\xFAn el eje estructurador del\n                    seguimiento de Jes\xFAs. En este sentido, la asesor\xEDa es una pedagog\xEDa Cristo c\xE9ntrica:\n                    busca hacer de Jesucristo el centro de la vida de las personas y de las comunidades."
+      }, {
+        img: "images/group/Carmen Adriana Blanco Niño.jpg",
+        name: "Carmen Adriana Blanco Niño",
+        email: "yayablanco@gmail.com",
+        profession: "Abogada",
+        others: "especialista en Investigaci\xF3n Criminal e intervenci\xF3n en juicio oral",
+        description: "Abogada Egresados de la universidad de la Sabana (10 de marzo de 1989) especialista en Investigaci\xF3n Criminal e intervenci\xF3n en juicio oral ,  6 diplomados en derechos de las mujeres , es experta y consultora internacional (en Colombia y en Estados Unidos, Mexico, Guatemala, El Salvador, NicAragua, Costa Rica, Peru y EcuaDor) en Litigaci\xF3n Oral, investigaci\xF3n criminal, investigaci\xF3n y juzgamiento de violencia contra mujeres y personas LGBTI y responsabilidad penal m\xE9dica y promotora y defensora de DDHH para mujeres, LGBTI y personas con afectaci\xF3n a su salud mental."
       }]
     };
   }
@@ -335,7 +363,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".v-card--reveal[data-v-3892019e] {\n  align-items: center;\n  bottom: 0;\n  justify-content: center;\n  opacity: 0.9;\n  position: absolute;\n  width: 100%;\n}", ""]);
+exports.push([module.i, ".ps[data-v-3892019e] {\n  height: 350px;\n}\n.v-card--reveal[data-v-3892019e] {\n  align-items: center;\n  bottom: 0;\n  justify-content: center;\n  opacity: 0.9;\n  position: absolute;\n  width: 100%;\n}", ""]);
 
 // exports
 
@@ -398,9 +426,9 @@ var render = function() {
             "v-img",
             {
               attrs: {
-                height: "350",
+                src: __webpack_require__(/*! @/images/header/quienes-somos.jpg */ "./resources/images/header/quienes-somos.jpg"),
                 gradient: "to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)",
-                src: __webpack_require__(/*! @/images/header/quienes-somos.jpg */ "./resources/images/header/quienes-somos.jpg")
+                height: "350"
               }
             },
             [
@@ -430,7 +458,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("v-breadcrumbs", {
                         staticClass: "justify-center white--text",
-                        attrs: { dark: "", color: "white", items: _vm.links }
+                        attrs: { items: _vm.links, color: "white", dark: "" }
                       })
                     ],
                     1
@@ -512,9 +540,9 @@ var render = function() {
                         {
                           staticClass: "white--text",
                           attrs: {
-                            tile: "",
+                            color: "transparent",
                             elevation: "0",
-                            color: "transparent"
+                            tile: ""
                           }
                         },
                         [
@@ -551,9 +579,9 @@ var render = function() {
                         {
                           staticClass: "white--text",
                           attrs: {
-                            tile: "",
+                            color: "transparent",
                             elevation: "0",
-                            color: "transparent"
+                            tile: ""
                           }
                         },
                         [
@@ -599,11 +627,11 @@ var render = function() {
           [
             _c(
               "v-avatar",
-              { attrs: { size: "65", color: "secondary lighten-2" } },
+              { attrs: { color: "secondary lighten-2", size: "65" } },
               [
                 _c(
                   "v-avatar",
-                  { attrs: { size: "56", color: "primary", dark: "" } },
+                  { attrs: { color: "primary", dark: "", size: "56" } },
                   [
                     _c("v-icon", { attrs: { dark: "" } }, [
                       _vm._v("mdi-account-group")
@@ -632,7 +660,7 @@ var render = function() {
               },
               [
                 _vm._v(
-                  "\n                Lorem ipsum dolor sit amet consectetur adipisicing elit.\n                Libero, in! Asperiores, impedit libero. Veniam rerum saepe\n                unde nihil possimus quibusdam esse accusamus mollitia magni\n                fuga.\n            "
+                  "\n                Somos un equipo de profesionales que facilitamos la promoción al diálogo y a la reflexión entre\n                mujeres. Propiciamos espacios idóneos para empoderar a la mujer construyendo un mejor futuro.\n            "
                 )
               ]
             )
@@ -641,124 +669,160 @@ var render = function() {
         )
       ]),
       _vm._v(" "),
-      _c(
-        "v-container",
-        [
-          _c(
-            "v-row",
-            _vm._l(_vm.group, function(item) {
-              return _c(
-                "v-col",
-                { key: item.name, attrs: { cols: "6", md: "3" } },
-                [
-                  _c("v-hover", {
-                    scopedSlots: _vm._u(
-                      [
-                        {
-                          key: "default",
-                          fn: function(ref) {
-                            var hover = ref.hover
-                            return [
-                              _c(
-                                "v-card",
-                                {
-                                  staticClass: "mx-auto",
-                                  attrs: {
-                                    height: "400",
-                                    color: "grey lighten-4"
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "v-img",
-                                    { attrs: { height: "400", src: item.img } },
-                                    [
-                                      _c("v-expand-transition", [
-                                        hover
-                                          ? _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text",
-                                                staticStyle: { height: "100%" }
-                                              },
-                                              [
-                                                _c(
-                                                  "v-container",
-                                                  {
-                                                    staticClass: "body-2",
-                                                    staticStyle: {
-                                                      height: "400px"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("p", [
-                                                      _vm._v(
-                                                        _vm._s(item.description)
-                                                      )
-                                                    ])
-                                                  ]
-                                                )
-                                              ],
-                                              1
-                                            )
-                                          : _vm._e()
-                                      ])
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                            ]
-                          }
+      _c("v-container", { attrs: { "grid-list-xl": "" } }, [
+        _c(
+          "div",
+          { staticClass: "layout justify-center wrap" },
+          _vm._l(_vm.group, function(item, index) {
+            return _c(
+              "div",
+              { key: index, staticClass: "flex xs12 sm6 md4 lg3" },
+              [
+                _c("v-hover", {
+                  scopedSlots: _vm._u(
+                    [
+                      {
+                        key: "default",
+                        fn: function(ref) {
+                          var hover = ref.hover
+                          return [
+                            _c(
+                              "div",
+                              [
+                                _c(
+                                  "v-card",
+                                  {
+                                    staticClass: "mx-auto",
+                                    attrs: {
+                                      color: "grey lighten-4",
+                                      height: "350",
+                                      width: "250"
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "v-img",
+                                      {
+                                        attrs: {
+                                          src: item.img,
+                                          height: "350",
+                                          width: "250"
+                                        }
+                                      },
+                                      [
+                                        _c("v-expand-transition", [
+                                          hover
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text",
+                                                  staticStyle: {
+                                                    height: "100%"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "v-container",
+                                                    {
+                                                      staticClass:
+                                                        "body-2 primary darken-4",
+                                                      staticStyle: {
+                                                        height: "400px"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("perfect-scrollbar", [
+                                                        _c("p", {
+                                                          staticClass:
+                                                            "pa-6 text-justify",
+                                                          domProps: {
+                                                            innerHTML: _vm._s(
+                                                              item.description
+                                                            )
+                                                          }
+                                                        })
+                                                      ])
+                                                    ],
+                                                    1
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            : _vm._e()
+                                        ])
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card",
+                                  {
+                                    staticClass: "mx-auto",
+                                    attrs: { flat: "", width: "250" }
+                                  },
+                                  [
+                                    _c(
+                                      "h3",
+                                      {
+                                        staticClass:
+                                          "title font-weight-black primary--text mb-2"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                " +
+                                            _vm._s(item.name) +
+                                            "\n                            "
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "font-weight-light subtitle-2 mb-2"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                " +
+                                            _vm._s(item.profession)
+                                        ),
+                                        _c("br")
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("p", {
+                                      staticClass:
+                                        "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10",
+                                      staticStyle: { "max-width": "700px" },
+                                      domProps: {
+                                        innerHTML: _vm._s(item.others)
+                                      }
+                                    })
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ]
                         }
-                      ],
-                      null,
-                      true
-                    )
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "h3",
-                    {
-                      staticClass: "title font-weight-black primary--text mb-2"
-                    },
-                    [
-                      _vm._v(
-                        "\n                    " +
-                          _vm._s(item.name) +
-                          "\n                "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "font-weight-light subtitle-2 mb-2" },
-                    [
-                      _vm._v(
-                        "\n                    " + _vm._s(item.profession)
-                      ),
-                      _c("br")
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("p", {
-                    staticClass:
-                      "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10",
-                    staticStyle: { "max-width": "700px" },
-                    domProps: { innerHTML: _vm._s(item.others) }
-                  })
-                ],
-                1
-              )
-            }),
-            1
-          )
-        ],
-        1
-      ),
+                      }
+                    ],
+                    null,
+                    true
+                  )
+                })
+              ],
+              1
+            )
+          }),
+          0
+        )
+      ]),
       _vm._v(" "),
       _c("v-container", [
         _c(
