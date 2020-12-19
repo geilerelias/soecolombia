@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97323508-03af-40b8-8d47-b752cf38730a" name="Default Changelist" comment="modificacion de la pagina QuienesSomos.vue">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/soecolombia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/group/MARÍA VICTORIA APONTE VALVERDE.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/group/MARÍA VICTORIA APONTE VALVERDE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Drawer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/base/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/base/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/page/QuienesSomos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/QuienesSomos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/store.js" afterDir="false" />
+    <list default="true" id="97323508-03af-40b8-8d47-b752cf38730a" name="Default Changelist" comment="imagen alexandra y carmen adriana">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$RFILES - RED DE APOYO SOE.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +145,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intercultural-Connection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\xampp\htdocs\apps\soecolombia\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
@@ -188,7 +169,8 @@
       <workItem from="1607971875026" duration="115000" />
       <workItem from="1607972019079" duration="1185000" />
       <workItem from="1607973257591" duration="4122000" />
-      <workItem from="1608384891364" duration="7308000" />
+      <workItem from="1608384891364" duration="7905000" />
+      <workItem from="1608404064598" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="modificacion de la pagina QuienesSomos.vue">
       <created>1608396164137</created>
@@ -197,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608396164137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="imagen alexandra y carmen adriana">
+      <created>1608396662867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608396662867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modificacion de la pagina QuienesSomos.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion de la pagina QuienesSomos.vue" />
+    <MESSAGE value="imagen alexandra y carmen adriana" />
+    <option name="LAST_COMMIT_MESSAGE" value="imagen alexandra y carmen adriana" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

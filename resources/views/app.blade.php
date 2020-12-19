@@ -8,7 +8,8 @@
     <title>{{ config('app.name', 'SOE Colombia') }}</title>
 
     <meta name="description"
-        content="Me inspira el saber de las mujeres, estoy comprometida con su autovaloración. Confiero pasión en el empoderamiento de cada mujer, con objetividad y claridad. Mi travesía personal refleja una combinación de saberes cotidianos, profesionales y sociales, inspirados en la necesidad de despertar conciencias de mujeres." />
+        content="Somos un equipo de profesionales que facilitamos la promoción al diálogo y a la reflexión entre mujeres.
+        Propiciamos espacios idóneos para empoderar a la mujer construyendo un mejor futuro." />
     <meta name="keywords" content="Maria Victoria Aponte Valverde, Jenis Sagbini, Mujer, Empoderamiento" />
     <meta name="author" content="Geiler Elias Radillo Sarmiento" />
 
