@@ -1,14 +1,1606 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/Tienda.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/Tienda.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -266,144 +1858,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      links: [{
-        text: "Inicio",
-        disabled: false,
-        href: "/"
-      }, {
-        text: "¿Quienes Somos?",
-        disabled: true,
-        href: "/quienes-somos"
-      }],
-      group: [{
-        img: "images/group/MARÍA VICTORIA APONTE VALVERDE.png",
-        name: "MARÍA VICTORIA APONTE VALVERDE",
-        email: "marivictoriap@hotmail.com",
-        profession: "TRABAJADORA SOCIAL",
-        others: "Magister en Investigaci\xF3n Social<br/>\n                    Especialista en Administraci\xF3n y docencia universitaria\n                    ",
-        description: "Me he desempe\xF1ado, desde lo social como profesional universitario,\n                    en oficinas de la mujer a nivel municipal y como personal directivo en el orden departamental.\n                    De igual manera, me desempe\xF1\xE9, c\xF3mo directora de Bienestar Universitario. As\xED mismo, fui directora de\n                    la Asociaci\xF3n de Trabajadores Sociales del Cesar y directora de una Fundaci\xF3n sin \xE1nimo de lucro que\n                    trabajaba por los j\xF3venes. Actualmente soy Docente universitaria. Mi trayectoria profesional, se ha\n                    caracterizado por investigar problem\xE1ticas de la mujer, y la violencia de g\xE9nero,\n                    la recuperaci\xF3n de la memoria entre otros, con el \xE1nimo de ser referente de\n                    cambio para las mujeres a trav\xE9s de un di\xE1logo de saberes que permita\n                    transformarla de la subordinaci\xF3n al protagonismo en el contexto\n                    socio-cultural."
-      }, {
-        img: "images/group/JENIS DEL CARMEN SAGBINI ECHAVEZ.jpg",
-        name: "JENIS DEL CARMEN SAGBINI ECHÁVEZ",
-        profession: "INGENIERA DE SISTEMAS",
-        others: "Mag\xEDster en Marketing & Direcci\xF3n Comercial<br/>\n                    Mag\xEDster en Gobierno de TI",
-        description: "\n                    Ingeniera de Sistemas con MSc en Marketing y Direcci\xF3n Comercial y con MSc en Gobierno de Tecnolog\xEDas de la Informaci\xF3n. <br/>\n                    Con amplia experiencia en Estrategias comerciales, manejo del recurso humano y capacitaci\xF3n. <br/>\n                    Docente Universitaria, Investigadora, Asesora Tecnol\xF3gica y Conferencista Internacional."
-      }, {
-        img: "images/group/RODRIGO ALBERTO TABORDA APONTE.png",
-        name: "RODRIGO ALBERTO TABORDA APONTE",
-        email: "rodrigotaborda@hotmail.com",
-        profession: "ABOGADO",
-        others: "Especialista en derecho procesal\n                    Magister en planificaci\xF3n territorial",
-        description: "Profesional en Derecho, especializado en derecho procesal.\n                    Magister en planificaci\xF3n territorial, atento para servir a la comunidad.\n                    Con competencias te\xF3ricas, pr\xE1cticas, argumentativas, propositivas,\n                    as\xED como con la adecuada fundamentaci\xF3n investigativa, que me permita en un\n                    marco \xE9tico y de valores, comprometerme con la dignidad humana y con la\n                    sociedad en el logro de la justicia material, del garantismo y protecci\xF3n de\n                    los derechos fundamentales de los ciudadanos. Me destaco por establecer relaciones\n                    laborales caracterizadas por la empat\xEDa y la resoluci\xF3n proactivas de conflictos."
-      }, {
-        img: "images/group/VICTOR MAURICIO TABORDA APONTE.png",
-        name: "VICTOR MAURICIO TABORDA APONTE",
-        email: "vmaoht@hotmail.com",
-        profession: "MÉDICO Y CIRUJANO",
-        others: "Especialista en Pediatr\xEDa",
-        description: "Profesional en Medicina, especialista altamente competente\n                    el \xE1rea de Pediatr\xEDa con un amplio compromiso, y entendimiento de las\n                    necesidades de la sociedad. Conservo una \xE9tica profesional para el buen\n                    desempe\xF1o de esta especializaci\xF3n, que me permite involucrarme en la atenci\xF3n\n                    de la poblaci\xF3n pedi\xE1trica fomentando un cuidado integral de la salud, mediante\n                    la promoci\xF3n, prevenci\xF3n y rehabilitaci\xF3n del ni\xF1o dentro de los est\xE1ndares de la\n                    m\xE1s alta calidad. Con especial cuidado, pongo todo mi empe\xF1o en lo que hago, atento\n                    para servir a la comunidad. A partir del desempe\xF1o de las labores relacionadas\n                    anteriormente, he desarrollado habilidades y destrezas para actuar en espacios con\n                    apertura al conocimiento interdisciplinario."
-      }, {
-        img: "images/group/CRISTIAN ALEXANDER TABORDA APONTE.png",
-        name: "CRISTIAN ALEXANDER TABORDA APONTE  ",
-        email: "cristian_tabo5@hotmail.com",
-        profession: "PROFESIONAL EN CULTURA FÍSICA DEPORTE Y RECREACIÓN ",
-        others: "Especialista en Programaci\xF3n y evaluaci\xF3n del ejercicio",
-        description: "Profesional en cultura f\xEDsica deporte y recreaci\xF3n, habilidades de\n                    manejo de grupo de los diferentes ciclos acad\xE9micos, con clases din\xE1micas y creativas,\n                    comprometido con el aprendizaje y progreso de los usuarios y b\xFAsqueda continua para\n                    desarrollar habilidades b\xE1sicas como el trabajo en equipo, autonom\xEDa, responsabilidad\n                    y habilidades f\xEDsicas como resistencia fuerza, velocidad etc.  Disposici\xF3n oportuna\n                    y eficaz para realizaci\xF3n\u202Fde tareas al cargo, con una actitud respetuosa de los valores\n                    \xE9ticos, morales sociales e institucionales.  Profesional competente para la formulaci\xF3n,\n                    administraci\xF3n y ejecuci\xF3n de planes, programas, proyectos de actividad f\xEDsica, deporte y\n                    recreaci\xF3n, que promuevan la salud (bienestar y calidad de vida) de las personas en\n                    \xE1mbitos organizacionales p\xFAblicos y privados, con actitud cr\xEDtica, \xE9tica,\n                    responsabilidad social y ambiental."
-      }, {
-        img: "images/group/RODRIGO ALBERTO TABORDA JUNCO.png",
-        name: "RODRIGO ALBERTO TABORDA JUNCO",
-        email: "rtabordajunco@gmail.com",
-        profession: "MÉDICO ESPECIALISTA MEDICINA INTERNA Y GASTROENTEROLOGÍA",
-        others: "",
-        description: "M\xE9dico especialista en Gastroenterolog\xEDa, y Medicina Interna,\n                    atento para servir a la comunidad. Con capacidad para dise\xF1ar, planear y desarrollar\n                    programas orientados a la prevenci\xF3n y promoci\xF3n de la salud, espec\xEDficamente diagn\xF3stico\n                    y tratamiento de enfermedades gastrointestinales, y hep\xE1ticas. Es de destacar que como\n                    internista evito la atomizaci\xF3n en el cuidado del enfermo, brindando un cuidado integral\n                    a adolescentes, adultos y ancianos, con base en una formaci\xF3n cient\xEDfica y human\xEDstica,\n                    con alta precisi\xF3n diagn\xF3stica, actualizado, con criterio estricto y gran prudencia de los\n                    medios diagn\xF3sticos de los cuales se dispone en la actualidad."
-      }, {
-        img: "images/group/Alexandra Aponte Sagbini.jpg",
-        name: "Alexandra Aponte Sagbini",
-        email: "alexandraapontesagbini@hotmail.com",
-        profession: "Psicóloga",
-        others: "Especialista en Negocios Internacionales. Investigadora.",
-        description: "Psic\xF3loga, Especialista en Negocios Internacionales. Investigadora. Amplia experiencia en Comunicaciones, Relaciones Internacionales, Negociaci\xF3n y manejo del Talento Humano."
-      }, {
-        img: "images/group/ANGELA MARÍA BICENTY MENDOZA.png",
-        name: "ANGELA MARÍA BICENTY MENDOZA",
-        email: "anyela64@hotmail.com",
-        profession: "ODONTÓLOGA",
-        others: "Magister en Salud P\xFAblica y desarrollo.\n                    Especialista en Gerencia Social de la Educaci\xF3n.\n                    ",
-        description: "Mi Experiencia profesional se ha desarrollado en actividades\n                    de docencia e investigaci\xF3n en pregrado y postgrado en el \xE1rea de las ciencias\n                    de salud Oral y Cl\xEDnica., como docente de laboratorio de precl\xEDnica en el \xE1rea\n                    rehabilitaci\xF3n oral y espacios acad\xE9micos relacionados con el \xE1rea de investigaci\xF3n,\n                    al igual he desarrollado competencias en el asesoramiento de proyectos de grado,\n                    semilleros de investigaci\xF3n en asesor\xEDa metodol\xF3gica. Con capacidad para dise\xF1ar,\n                    planear y desarrollar programas orientados a la Prevenci\xF3n y promoci\xF3n de la salud\n                    y prevenci\xF3n diagn\xF3stico y tratamiento de enfermedades bucodentales a nivel\n                    individual, familiar y de la comunidad. "
-      }, {
-        img: "images/group/JOSE ANTONIO APONTE Y ADRIANA BLANCO.png",
-        name: "JOSE ANTONIO APONTE Y ADRIANA BLANCO",
-        email: "sicarare@hotmail.com",
-        profession: "SENTIDO PROFUNDO DE LA ORIENTACIÓN ESPIRITUAL",
-        others: "",
-        description: "Como orientadores de la fe, antes de ejercer nuestra misi\xF3n\n                    y en su ejercicio, tenemos claro el sentido profundo de la misma, es decir,\n                    la meta o el horizonte hacia donde deben encaminarse las personas, la cual es:\n                    el seguimiento de Jes\xFAs. La asesor\xEDa, en tanto que pedagog\xEDa de fe cristiana,\n                    tiene como objeto esencial la formaci\xF3n de disc\xEDpulos de Jesucristo, hombres y\n                    mujeres adultos en la fe, personas que van configurando de forma responsable el\n                    sentido de sus vidas y la orientaci\xF3n de su misi\xF3n seg\xFAn el eje estructurador del\n                    seguimiento de Jes\xFAs. En este sentido, la asesor\xEDa es una pedagog\xEDa Cristo c\xE9ntrica:\n                    busca hacer de Jesucristo el centro de la vida de las personas y de las comunidades."
-      }, {
-        img: "images/group/Carmen Adriana Blanco Niño.jpg",
-        name: "Carmen Adriana Blanco Niño",
-        email: "yayablanco@gmail.com",
-        profession: "Abogada",
-        others: "especialista en Investigaci\xF3n Criminal e intervenci\xF3n en juicio oral",
-        description: "Abogada Egresados de la universidad de la Sabana (10 de marzo de 1989) especialista en Investigaci\xF3n Criminal e intervenci\xF3n en juicio oral ,  6 diplomados en derechos de las mujeres , es experta y consultora internacional (en Colombia y en Estados Unidos, Mexico, Guatemala, El Salvador, NicAragua, Costa Rica, Peru y EcuaDor) en Litigaci\xF3n Oral, investigaci\xF3n criminal, investigaci\xF3n y juzgamiento de violencia contra mujeres y personas LGBTI y responsabilidad penal m\xE9dica y promotora y defensora de DDHH para mujeres, LGBTI y personas con afectaci\xF3n a su salud mental."
-      }]
+      loading: false,
+      selection: 1
     };
+  },
+  methods: {
+    reserve: function reserve() {
+      var _this = this;
+
+      this.loading = true;
+      setTimeout(function () {
+        return _this.loading = false;
+      }, 2000);
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".ps[data-v-3892019e] {\n  height: 350px;\n}\n.v-card--reveal[data-v-3892019e] {\n  align-items: center;\n  bottom: 0;\n  justify-content: center;\n  opacity: 0.9;\n  position: absolute;\n  width: 100%;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -415,436 +1891,3560 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "v-app",
-    { staticStyle: { "min-height": "70vh" } },
-    [
+  return _c("v-container", [
+    _c("div", { staticClass: "v-main__wrap" }, [
       _c(
-        "section",
+        "div",
+        {
+          staticClass: "container fill-height container--fluid",
+          attrs: { "data-v-be8dd950": "" }
+        },
         [
           _c(
-            "v-img",
-            {
-              attrs: {
-                src: __webpack_require__(/*! @/images/header/quienes-somos.jpg */ "./resources/images/header/quienes-somos.jpg"),
-                gradient: "to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)",
-                height: "350"
-              }
-            },
+            "div",
+            { staticClass: "layout", attrs: { "data-v-be8dd950": "" } },
             [
               _c(
-                "v-row",
+                "div",
                 {
-                  staticClass:
-                    "fill-height text-center align-center justify-center"
+                  staticClass: "d-flex flex-column flex-grow-1",
+                  attrs: { "data-v-a27b13d0": "" }
                 },
                 [
                   _c(
-                    "v-col",
-                    { attrs: { cols: "12" } },
+                    "div",
+                    {
+                      staticClass:
+                        "d-flex flex-column flex-md-row align-md-end py-3"
+                    },
                     [
+                      _c("div", [
+                        _c("div", { staticClass: "display-1" }, [
+                          _vm._v("Productos")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "ul",
+                          {
+                            staticClass: "v-breadcrumbs pa-0 py-2 theme--light"
+                          },
+                          [
+                            _c("li", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "v-breadcrumbs__item",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Products")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "v-breadcrumbs__divider" },
+                              [_vm._v("/")]
+                            ),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "div",
+                                { staticClass: "v-breadcrumbs__item" },
+                                [
+                                  _vm._v(
+                                    "\n                                        List\n                                    "
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "spacer" }),
+                      _vm._v(" "),
                       _c(
-                        "h1",
+                        "div",
                         {
                           staticClass:
-                            "display-2 font-weight-500 mb-2 text-center white--text"
+                            "v-input v-input--hide-details v-input--dense theme--light v-text-field v-text-field--single-line v-text-field--solo v-text-field--is-booted v-text-field--enclosed v-text-field--placeholder v-text-field--rounded"
                         },
                         [
-                          _vm._v(
-                            "\n                        ¿Quienes Somos?\n                    "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("v-breadcrumbs", {
-                        staticClass: "justify-center white--text",
-                        attrs: { items: _vm.links, color: "white", dark: "" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-container",
-        [
-          _c(
-            "v-row",
-            [
-              _c("v-col", { staticClass: "col-md-6 col-12" }, [
-                _c("h2", { staticClass: "mb-4 display-1" }, [
-                  _vm._v("\n                    Soy Empoderamiento."),
-                  _c("br"),
-                  _vm._v(
-                    "\n                    SOE Colombia.\n                "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "subtitle-1 text-justify" }, [
-                  _vm._v(
-                    "\n                    Nos inspira el saber de las mujeres, estamos\n                    comprometidos con su auto-valoración. Conferimos pasión\n                    en el empoderamiento de cada mujer, con objetividad y\n                    claridad. La travesía personal de cada uno de los\n                    integrantes de este equipo refleja una combinación de\n                    saberes cotidianos, profesionales y sociales, inspirados\n                    en la necesidad de despertar conciencias de mujeres.\n                "
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "v-col",
-                { staticClass: "col-md-5 offset-md-1 col-12" },
-                [
-                  _c(
-                    "v-card",
-                    [
-                      _c("v-img", {
-                        attrs: {
-                          src:
-                            "https://lanetaneta.b-cdn.net/wp-content/uploads/2020/02/Paramos-para-evidenciar-que-nuestros-aportes-tienen-un-impacto-abogada-780x467.jpg"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "section",
-        { staticClass: "primary lighten-1" },
-        [
-          _c(
-            "v-container",
-            [
-              _c(
-                "v-row",
-                [
-                  _c(
-                    "v-col",
-                    { attrs: { cols: "12", md: "6" } },
-                    [
-                      _c(
-                        "v-card",
-                        {
-                          staticClass: "white--text",
-                          attrs: {
-                            color: "transparent",
-                            elevation: "0",
-                            tile: ""
-                          }
-                        },
-                        [
-                          _c(
-                            "v-card-title",
-                            { attrs: { "primary-title": "" } },
-                            [
-                              _vm._v(
-                                "\n                            MISIÓN\n                        "
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("v-card-text", { staticClass: "white--text" }, [
-                            _c("p", { staticClass: "text-justify" }, [
-                              _vm._v(
-                                "\n                                Soy empoderamiento (SOE), implica el uso de\n                                medios publicitarios virtuales (canal y\n                                blog) que desmitifiquen prácticas sociales\n                                repetitivas de sometimiento de un género\n                                sobre el otro, para ser remplazadas por\n                                prácticas culturales democráticas y\n                                equitativas, entre hombres y mujeres.\n                                Nuestra misión es desarrollar iniciativas de\n                                investigación, reflexiones y acciones de\n                                capacitación desde la autoestima,\n                                autovaloración y la conciencia; para que las\n                                mujeres con discernimiento, evidencien\n                                aclaraciones a las controversias sobre su\n                                papel en la vida cotidiana, erradicando las\n                                creencias limitantes que las condicionan y\n                                les impide tomar el control de sus vidas.\n                            "
+                          _c("div", { staticClass: "v-input__control" }, [
+                            _c("div", { staticClass: "v-input__slot" }, [
+                              _c("div", { staticClass: "v-text-field__slot" }, [
+                                _c("input", {
+                                  attrs: {
+                                    id: "input-1201",
+                                    placeholder: "Buscar producto",
+                                    type: "text"
+                                  }
+                                })
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "v-input__append-inner" },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "v-input__icon v-input__icon--clear"
+                                    },
+                                    [
+                                      _c("button", {
+                                        staticClass:
+                                          "v-icon notranslate v-icon--disabled v-icon--link mdi mdi-close theme--light",
+                                        attrs: {
+                                          disabled: "disabled",
+                                          type: "button",
+                                          "aria-label": "clear icon"
+                                        }
+                                      })
+                                    ]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "v-input__append-inner" },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "v-input__icon v-input__icon--append"
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass:
+                                          "v-icon notranslate mdi mdi-magnify theme--light",
+                                        attrs: { "aria-hidden": "true" }
+                                      })
+                                    ]
+                                  )
+                                ]
                               )
                             ])
                           ])
-                        ],
-                        1
+                        ]
                       )
-                    ],
-                    1
+                    ]
                   ),
                   _vm._v(" "),
-                  _c(
-                    "v-col",
-                    { attrs: { cols: "12", md: "6" } },
-                    [
-                      _c(
-                        "v-card",
-                        {
-                          staticClass: "white--text",
-                          attrs: {
-                            color: "transparent",
-                            elevation: "0",
-                            tile: ""
-                          }
-                        },
-                        [
-                          _c(
-                            "v-card-title",
-                            { attrs: { "primary-title": "" } },
-                            [
-                              _vm._v(
-                                "\n                            VISIÓN\n                        "
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("v-card-text", { staticClass: "white--text" }, [
-                            _c("p", { staticClass: "text-justify" }, [
-                              _vm._v(
-                                "\n                                El posicionamiento de SOE se dimensiona en 5\n                                años, como el canal y el blog en el ámbito\n                                nacional e internacional ampliado en una\n                                red, que totalice y despliegue el\n                                empoderamiento femenino, asesorando,\n                                asistiendo y acompañando a mujeres en\n                                acciones personales, familiares y\n                                comunitarias, desde la autonomía y toma de\n                                decisiones que apunten al despertar de su\n                                conciencia en el ámbito de la vida\n                                cotidiana.\n                            "
-                              )
-                            ])
-                          ])
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("v-container", [
-        _c(
-          "div",
-          { staticClass: "text-center" },
-          [
-            _c(
-              "v-avatar",
-              { attrs: { color: "secondary lighten-2", size: "65" } },
-              [
-                _c(
-                  "v-avatar",
-                  { attrs: { color: "primary", dark: "", size: "56" } },
-                  [
-                    _c("v-icon", { attrs: { dark: "" } }, [
-                      _vm._v("mdi-account-group")
-                    ])
-                  ],
-                  1
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c(
-              "p",
-              { staticClass: "primary--text headline font-weight-black" },
-              [_vm._v("\n                Grupo de Apoyo\n            ")]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass:
-                  "base-body body-1 mx-auto grey--text text--darken-1 text-center mb-10",
-                staticStyle: { "max-width": "700px" }
-              },
-              [
-                _vm._v(
-                  "\n                Somos un equipo de profesionales que facilitamos la promoción al diálogo y a la reflexión entre\n                mujeres. Propiciamos espacios idóneos para empoderar a la mujer construyendo un mejor futuro.\n            "
-                )
-              ]
-            )
-          ],
-          1
-        )
-      ]),
-      _vm._v(" "),
-      _c("v-container", { attrs: { "grid-list-xl": "" } }, [
-        _c(
-          "div",
-          { staticClass: "layout justify-center wrap" },
-          _vm._l(_vm.group, function(item, index) {
-            return _c(
-              "div",
-              { key: index, staticClass: "flex xs12 sm6 md4 lg3" },
-              [
-                _c("v-hover", {
-                  scopedSlots: _vm._u(
-                    [
+                  _c("div", { staticClass: "d-flex" }, [
+                    _c(
+                      "div",
                       {
-                        key: "default",
-                        fn: function(ref) {
-                          var hover = ref.hover
-                          return [
+                        staticClass:
+                          "v-responsive overflow-visible mr-5 d-none d-sm-block flex-grow-0",
+                        staticStyle: { width: "240px" }
+                      },
+                      [
+                        _c("div", { staticClass: "v-responsive__content" }, [
+                          _c("div", { staticClass: "text-h6 mb-3" }, [
+                            _vm._v("Filtros")
+                          ]),
+                          _vm._v(" "),
+                          _c("div", [
                             _c(
                               "div",
+                              { staticClass: "font-weight-bold mb-1" },
                               [
-                                _c(
-                                  "v-card",
-                                  {
-                                    staticClass: "mx-auto",
-                                    attrs: {
-                                      color: "grey lighten-4",
-                                      height: "350",
-                                      width: "250"
-                                    }
-                                  },
-                                  [
-                                    _c(
-                                      "v-img",
-                                      {
-                                        attrs: {
-                                          src: item.img,
-                                          height: "350",
-                                          width: "250"
-                                        }
-                                      },
-                                      [
-                                        _c("v-expand-transition", [
-                                          hover
-                                            ? _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal  white--text",
-                                                  staticStyle: {
-                                                    height: "100%"
-                                                  }
-                                                },
-                                                [
-                                                  _c(
-                                                    "v-container",
-                                                    {
-                                                      staticClass:
-                                                        "body-2 primary darken-4",
-                                                      staticStyle: {
-                                                        height: "400px"
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("perfect-scrollbar", [
-                                                        _c("p", {
-                                                          staticClass:
-                                                            "pa-6 text-justify",
-                                                          domProps: {
-                                                            innerHTML: _vm._s(
-                                                              item.description
-                                                            )
-                                                          }
-                                                        })
-                                                      ])
-                                                    ],
-                                                    1
-                                                  )
-                                                ],
-                                                1
-                                              )
-                                            : _vm._e()
-                                        ])
-                                      ],
-                                      1
-                                    )
-                                  ],
-                                  1
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "v-card",
-                                  {
-                                    staticClass: "mx-auto",
-                                    attrs: { flat: "", width: "250" }
-                                  },
-                                  [
-                                    _c(
-                                      "h3",
-                                      {
-                                        staticClass:
-                                          "title font-weight-black primary--text mb-2"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                                " +
-                                            _vm._s(item.name) +
-                                            "\n                            "
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
+                                _vm._v(
+                                  "\n                                        Colecciones\n                                    "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-decoration-none",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Shoes")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "font-weight-bold" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-decoration-none",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("T-Shirts")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "text-decoration-none",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Hoodies")]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "font-weight-bold mt-3" },
+                              [
+                                _vm._v(
+                                  "\n                                        Rango de precios\n                                    "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light v-input__slider v-input--range-slider"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
                                     _c(
                                       "div",
                                       {
                                         staticClass:
-                                          "font-weight-light subtitle-2 mb-2"
+                                          "v-slider v-slider--horizontal theme--light"
                                       },
                                       [
-                                        _vm._v(
-                                          "\n                                " +
-                                            _vm._s(item.profession)
+                                        _c("input", {
+                                          attrs: {
+                                            value: "100",
+                                            id: "input-min-1208",
+                                            readonly: "readonly",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            value: "580",
+                                            id: "input-max-1208",
+                                            readonly: "readonly",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "v-slider__track-container"
+                                          },
+                                          [
+                                            _c("div", {
+                                              staticClass:
+                                                "v-slider__track-background primary lighten-3",
+                                              staticStyle: {
+                                                left: "calc(0% + 0px)",
+                                                width: "calc(10% + 0px)"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass:
+                                                "v-slider__track-fill primary",
+                                              staticStyle: {
+                                                left: "calc(10% + 0px)",
+                                                width: "calc(48% + 0px)"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c("div", {
+                                              staticClass:
+                                                "v-slider__track-background primary lighten-3",
+                                              staticStyle: {
+                                                left: "calc(58% + 0px)",
+                                                width: "calc(42% + 0px)"
+                                              }
+                                            })
+                                          ]
                                         ),
-                                        _c("br")
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "v-slider__ticks-container"
+                                          },
+                                          [
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(0% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(1% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(2% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(3% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(4% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(5% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(6% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(7% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(8% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(9% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(10% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(11% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(12% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(13% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(14% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(15% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(16% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(17% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(18% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(19% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(20% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(21% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(22% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(23% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(24% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(25% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(26% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(27% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(28% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(29% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(30% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(31% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(32% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(33% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(34% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(35% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(36% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(37% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(38% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(39% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(40% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(41% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(42% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(43% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(44% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(45% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(46% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(47% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(48% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(49% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(50% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(51% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(52% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(53% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(54% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(55% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(56% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(57% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(58% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(59% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(60% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(61% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(62% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(63% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(64% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(65% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(66% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(67% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(68% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(69% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(70% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(71% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(72% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(73% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(74% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(75% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(76% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(77% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(78% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(79% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(80% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(81% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(82% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(83% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(84% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(85% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(86% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(87% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(88% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(89% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(90% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(91% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(92% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(93% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(94% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(95% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(96% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(97% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(98% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(99% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            }),
+                                            _c("span", {
+                                              staticClass: "v-slider__tick",
+                                              staticStyle: {
+                                                width: "4px",
+                                                height: "4px",
+                                                left: "calc(100% - 2px)",
+                                                top: "calc(50% - 2px)"
+                                              }
+                                            })
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "v-slider__thumb-container v-slider__thumb-container--show-label primary--text",
+                                            staticStyle: { left: "10%" },
+                                            attrs: {
+                                              role: "slider",
+                                              tabindex: "0",
+                                              "aria-valuemin": "0",
+                                              "aria-valuemax": "1000",
+                                              "aria-valuenow": "100,580",
+                                              "aria-readonly": "false",
+                                              "aria-orientation": "horizontal"
+                                            }
+                                          },
+                                          [
+                                            _c("div", {
+                                              staticClass:
+                                                "v-slider__thumb primary"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "v-slider__thumb-label-container",
+                                                staticStyle: {
+                                                  "transform-origin":
+                                                    "center bottom",
+                                                  display: "none"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "v-slider__thumb-label primary",
+                                                    staticStyle: {
+                                                      height: "32px",
+                                                      width: "32px",
+                                                      transform:
+                                                        "translateY(-20%) translateY(-12px) translateX(-50%) rotate(45deg)"
+                                                    }
+                                                  },
+                                                  [
+                                                    _c("div", [
+                                                      _c("span", [
+                                                        _vm._v("100")
+                                                      ])
+                                                    ])
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "v-slider__thumb-container v-slider__thumb-container--show-label primary--text",
+                                            staticStyle: { left: "58%" },
+                                            attrs: {
+                                              role: "slider",
+                                              tabindex: "0",
+                                              "aria-valuemin": "0",
+                                              "aria-valuemax": "1000",
+                                              "aria-valuenow": "100,580",
+                                              "aria-readonly": "false",
+                                              "aria-orientation": "horizontal"
+                                            }
+                                          },
+                                          [
+                                            _c("div", {
+                                              staticClass:
+                                                "v-slider__thumb primary"
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "v-slider__thumb-label-container",
+                                                staticStyle: {
+                                                  "transform-origin":
+                                                    "center bottom",
+                                                  display: "none"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "v-slider__thumb-label primary",
+                                                    staticStyle: {
+                                                      height: "32px",
+                                                      width: "32px",
+                                                      transform:
+                                                        "translateY(-20%) translateY(-12px) translateX(-50%) rotate(45deg)"
+                                                    }
+                                                  },
+                                                  [
+                                                    _c("div", [
+                                                      _c("span", [
+                                                        _vm._v("580")
+                                                      ])
+                                                    ])
+                                                  ]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "font-weight-bold mt-3" },
+                              [
+                                _vm._v(
+                                  "\n                                        Opiniones de los usuarios\n                                    "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--column"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "v-input__slot",
+                                      staticStyle: { height: "auto" }
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "v-input--radio-group__input",
+                                          attrs: {
+                                            role: "radiogroup",
+                                            "aria-labelledby": "input-1211"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "v-radio ma-0 theme--light"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "v-input--selection-controls__input"
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _c("input", {
+                                                    attrs: {
+                                                      "aria-checked": "false",
+                                                      id: "input-1212",
+                                                      role: "radio",
+                                                      type: "radio",
+                                                      name: "radio-1211",
+                                                      value: "1"
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("div", {
+                                                    staticClass:
+                                                      "v-input--selection-controls__ripple"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass:
+                                                    "v-label theme--light",
+                                                  staticStyle: {
+                                                    left: "0px",
+                                                    right: "auto",
+                                                    position: "relative"
+                                                  },
+                                                  attrs: { for: "input-1212" }
+                                                },
+                                                [
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "v-rating v-rating--readonly v-rating--dense"
+                                                    },
+                                                    [
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "font-weight-bold ml-1"
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "y\n                                                                arriba"
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "v-radio ma-0 theme--light v-item--active"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "v-input--selection-controls__input"
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "v-icon notranslate v-icon--dense mdi mdi-radiobox-marked theme--light primary--text",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _c("input", {
+                                                    attrs: {
+                                                      "aria-checked": "true",
+                                                      id: "input-1220",
+                                                      role: "radio",
+                                                      type: "radio",
+                                                      name: "radio-1211",
+                                                      value: "2"
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("div", {
+                                                    staticClass:
+                                                      "v-input--selection-controls__ripple primary--text"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass:
+                                                    "v-label theme--light",
+                                                  staticStyle: {
+                                                    left: "0px",
+                                                    right: "auto",
+                                                    position: "relative"
+                                                  },
+                                                  attrs: { for: "input-1220" }
+                                                },
+                                                [
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "v-rating v-rating--readonly v-rating--dense"
+                                                    },
+                                                    [
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "font-weight-bold ml-1"
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "y\n                                                                arriba"
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "v-radio ma-0 theme--light"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "v-input--selection-controls__input"
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _c("input", {
+                                                    attrs: {
+                                                      "aria-checked": "false",
+                                                      id: "input-1228",
+                                                      role: "radio",
+                                                      type: "radio",
+                                                      name: "radio-1211",
+                                                      value: "3"
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("div", {
+                                                    staticClass:
+                                                      "v-input--selection-controls__ripple"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass:
+                                                    "v-label theme--light",
+                                                  staticStyle: {
+                                                    left: "0px",
+                                                    right: "auto",
+                                                    position: "relative"
+                                                  },
+                                                  attrs: { for: "input-1228" }
+                                                },
+                                                [
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "v-rating v-rating--readonly v-rating--dense"
+                                                    },
+                                                    [
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "font-weight-bold ml-1"
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "y\n                                                                arriba"
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "v-radio ma-0 theme--light"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "v-input--selection-controls__input"
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _c("input", {
+                                                    attrs: {
+                                                      "aria-checked": "false",
+                                                      id: "input-1236",
+                                                      role: "radio",
+                                                      type: "radio",
+                                                      name: "radio-1211",
+                                                      value: "4"
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("div", {
+                                                    staticClass:
+                                                      "v-input--selection-controls__ripple"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass:
+                                                    "v-label theme--light",
+                                                  staticStyle: {
+                                                    left: "0px",
+                                                    right: "auto",
+                                                    position: "relative"
+                                                  },
+                                                  attrs: { for: "input-1236" }
+                                                },
+                                                [
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "v-rating v-rating--readonly v-rating--dense"
+                                                    },
+                                                    [
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "font-weight-bold ml-1"
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "y\n                                                                arriba"
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "v-radio ma-0 theme--light"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "v-input--selection-controls__input"
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "v-icon notranslate v-icon--dense mdi mdi-radiobox-blank theme--light",
+                                                    attrs: {
+                                                      "aria-hidden": "true"
+                                                    }
+                                                  }),
+                                                  _c("input", {
+                                                    attrs: {
+                                                      "aria-checked": "false",
+                                                      id: "input-1244",
+                                                      role: "radio",
+                                                      type: "radio",
+                                                      name: "radio-1211",
+                                                      value: "5"
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c("div", {
+                                                    staticClass:
+                                                      "v-input--selection-controls__ripple"
+                                                  })
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass:
+                                                    "v-label theme--light",
+                                                  staticStyle: {
+                                                    left: "0px",
+                                                    right: "auto",
+                                                    position: "relative"
+                                                  },
+                                                  attrs: { for: "input-1244" }
+                                                },
+                                                [
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "v-rating v-rating--readonly v-rating--dense"
+                                                    },
+                                                    [
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      }),
+                                                      _c("button", {
+                                                        staticClass:
+                                                          "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                                        staticStyle: {
+                                                          "font-size": "16px"
+                                                        },
+                                                        attrs: {
+                                                          type: "button",
+                                                          tabindex: "-1"
+                                                        }
+                                                      })
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "font-weight-bold ml-1"
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "y\n                                                                arriba"
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "font-weight-bold mt-3" },
+                              [
+                                _vm._v(
+                                  "\n                                        Marca\n                                    "
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input ma-0 v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-input--selection-controls v-input--checkbox primary--text"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-input--selection-controls__input"
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--dense mdi mdi-checkbox-marked theme--light primary--text",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            "aria-checked": "true",
+                                            id: "input-1252",
+                                            role: "checkbox",
+                                            type: "checkbox",
+                                            value: "Ardidas"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("div", {
+                                          staticClass:
+                                            "v-input--selection-controls__ripple primary--text"
+                                        })
                                       ]
                                     ),
                                     _vm._v(" "),
-                                    _c("p", {
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "v-label theme--light",
+                                        staticStyle: {
+                                          left: "0px",
+                                          right: "auto",
+                                          position: "relative"
+                                        },
+                                        attrs: { for: "input-1252" }
+                                      },
+                                      [_vm._v("Ardidas")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input ma-0 v-input--hide-details v-input--dense theme--light v-input--selection-controls v-input--checkbox"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-input--selection-controls__input"
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--dense mdi mdi-checkbox-blank-outline theme--light",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            "aria-checked": "false",
+                                            id: "input-1254",
+                                            role: "checkbox",
+                                            type: "checkbox",
+                                            value: "Niko"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("div", {
+                                          staticClass:
+                                            "v-input--selection-controls__ripple"
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "v-label theme--light",
+                                        staticStyle: {
+                                          left: "0px",
+                                          right: "auto",
+                                          position: "relative"
+                                        },
+                                        attrs: { for: "input-1254" }
+                                      },
+                                      [_vm._v("Niko")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input ma-0 v-input--hide-details v-input--dense theme--light v-input--selection-controls v-input--checkbox"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-input--selection-controls__input"
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--dense mdi mdi-checkbox-blank-outline theme--light",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            "aria-checked": "false",
+                                            id: "input-1256",
+                                            role: "checkbox",
+                                            type: "checkbox",
+                                            value: "Pumo"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("div", {
+                                          staticClass:
+                                            "v-input--selection-controls__ripple"
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "v-label theme--light",
+                                        staticStyle: {
+                                          left: "0px",
+                                          right: "auto",
+                                          position: "relative"
+                                        },
+                                        attrs: { for: "input-1256" }
+                                      },
+                                      [_vm._v("Pumo")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input ma-0 v-input--hide-details v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-input--selection-controls v-input--checkbox primary--text"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-input--selection-controls__input"
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--dense mdi mdi-checkbox-marked theme--light primary--text",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            "aria-checked": "true",
+                                            id: "input-1258",
+                                            role: "checkbox",
+                                            type: "checkbox",
+                                            value: "Old Balance"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("div", {
+                                          staticClass:
+                                            "v-input--selection-controls__ripple primary--text"
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "v-label theme--light",
+                                        staticStyle: {
+                                          left: "0px",
+                                          right: "auto",
+                                          position: "relative"
+                                        },
+                                        attrs: { for: "input-1258" }
+                                      },
+                                      [_vm._v("Old Balance")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "v-input ma-0 v-input--hide-details v-input--dense theme--light v-input--selection-controls v-input--checkbox"
+                              },
+                              [
+                                _c("div", { staticClass: "v-input__control" }, [
+                                  _c("div", { staticClass: "v-input__slot" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-input--selection-controls__input"
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--dense mdi mdi-checkbox-blank-outline theme--light",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _c("input", {
+                                          attrs: {
+                                            "aria-checked": "false",
+                                            id: "input-1260",
+                                            role: "checkbox",
+                                            type: "checkbox",
+                                            value: "Vins"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c("div", {
+                                          staticClass:
+                                            "v-input--selection-controls__ripple"
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "label",
+                                      {
+                                        staticClass: "v-label theme--light",
+                                        staticStyle: {
+                                          left: "0px",
+                                          right: "auto",
+                                          position: "relative"
+                                        },
+                                        attrs: { for: "input-1260" }
+                                      },
+                                      [_vm._v("Vins")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "flex-grow-1 min-w-0" }, [
+                      _c("div", { staticClass: "text-h6 mb-1" }, [
+                        _vm._v(
+                          "\n                                Resultados (8 de 2092)\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "row" }, [
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href:
+                                    "/ecommerce/product-details?productId=0",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
                                       staticClass:
-                                        "base-body body-1 mx-auto grey--text text--darken-1 text-justify mb-10",
-                                      staticStyle: { "max-width": "700px" },
-                                      domProps: {
-                                        innerHTML: _vm._s(item.others)
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/1.9073047e.png")',
+                                        "background-position": "center center"
                                       }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Leave the road T-shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c("span", {
+                                      staticClass:
+                                        "text-decoration-line-through mr-1"
+                                    }),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$25.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href:
+                                    "/ecommerce/product-details?productId=1",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/2.8db2e219.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Creative T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-decoration-line-through mr-1"
+                                      },
+                                      [_vm._v("$30.00")]
+                                    ),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$22.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href: "/detalle-producto",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/3.dfbec7d3.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                That T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c("span", {
+                                      staticClass:
+                                        "text-decoration-line-through mr-1"
+                                    }),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$25.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href: "/detalle-producto",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/4.fd702ad9.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Skeleton T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c("span", {
+                                      staticClass:
+                                        "text-decoration-line-through mr-1"
+                                    }),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$24.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href: "/detalle-producto",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/5.0af71d82.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Dragonball T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-decoration-line-through mr-1"
+                                      },
+                                      [_vm._v("$33.00")]
+                                    ),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$26.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href: "/detalle-producto",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/6.621cd2a8.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Black T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c("span", {
+                                      staticClass:
+                                        "text-decoration-line-through mr-1"
+                                    }),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$23.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href:
+                                    "/ecommerce/product-details?productId=6",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/7.fa72a88d.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                Grey T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-decoration-line-through mr-1"
+                                      },
+                                      [_vm._v("$34.00")]
+                                    ),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$26.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "col-md-6 col-lg-4 col-xl-3 col-12" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-center pa-1 v-card v-card--link v-sheet theme--light",
+                                attrs: {
+                                  href:
+                                    "/ecommerce/product-details?productId=7",
+                                  tabindex: "0"
+                                }
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "v-image v-responsive theme--light",
+                                    staticStyle: { height: "460px" }
+                                  },
+                                  [
+                                    _c("div", {
+                                      staticClass: "v-responsive__sizer",
+                                      staticStyle: { "padding-bottom": "100%" }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass:
+                                        "v-image__image v-image__image--contain",
+                                      staticStyle: {
+                                        "background-image":
+                                          'url("https://lux-admin-pro.indielayer.com/img/8.c56707f1.png")',
+                                        "background-position": "center center"
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", {
+                                      staticClass: "v-responsive__content",
+                                      staticStyle: { width: "1000px" }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "pa-3" }, [
+                                  _c("div", { staticClass: "text-h6" }, [
+                                    _vm._v(
+                                      "\n                                                F* Awesome T-Shirt\n                                            "
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "v-rating v-rating--readonly v-rating--dense"
+                                      },
+                                      [
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star theme--light orange--text",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        }),
+                                        _c("button", {
+                                          staticClass:
+                                            "v-icon notranslate v-icon--link mdi mdi-star-outline theme--light orange--text text--lighten-3",
+                                          staticStyle: { "font-size": "16px" },
+                                          attrs: {
+                                            type: "button",
+                                            tabindex: "-1"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mt-2" }, [
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "text-decoration-line-through mr-1"
+                                      },
+                                      [_vm._v("$32.00")]
+                                    ),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass: "font-weight-bold text-h6"
+                                      },
+                                      [_vm._v("$27.00")]
+                                    )
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "nav",
+                        {
+                          staticClass: "my-4",
+                          attrs: { role: "navigation", "aria-label": "A.M" }
+                        },
+                        [
+                          _c(
+                            "ul",
+                            {
+                              staticClass:
+                                "v-pagination v-pagination--circle theme--light"
+                            },
+                            [
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "v-pagination__navigation",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-label": "Navegación de paginación"
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass:
+                                        "v-icon notranslate mdi mdi-chevron-left theme--light",
+                                      attrs: { "aria-hidden": "true" }
                                     })
                                   ]
                                 )
-                              ],
-                              1
-                            )
-                          ]
-                        }
-                      }
-                    ],
-                    null,
-                    true
-                  )
-                })
-              ],
-              1
-            )
-          }),
-          0
-        )
-      ]),
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "v-pagination__item",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-label": "Siguiente página"
+                                    }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            1\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass:
+                                      "v-pagination__item v-pagination__item--active primary",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-current": "true",
+                                      "aria-label": "Pagina anterior"
+                                    }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            2\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "v-pagination__item",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-label": "Siguiente página"
+                                    }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            3\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "v-pagination__item",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-label": "Siguiente página"
+                                    }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                                            4\n                                        "
+                                    )
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass: "v-pagination__navigation",
+                                    attrs: {
+                                      type: "button",
+                                      "aria-label": "PM"
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass:
+                                        "v-icon notranslate mdi mdi-chevron-right theme--light",
+                                      attrs: { "aria-hidden": "true" }
+                                    })
+                                  ]
+                                )
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]
+          )
+        ]
+      ),
       _vm._v(" "),
-      _c("v-container", [
-        _c(
-          "video",
-          {
-            ref: "videoPlayer",
-            staticClass: "mb-0 pb-0",
-            attrs: { autoplay: "", controls: "" }
-          },
-          [
-            _c("source", {
-              attrs: {
-                src: "videos/Video 9. Papel de la mujer en la sociedad.mp4",
-                type: "video/mp4"
-              }
-            })
-          ]
-        )
-      ])
-    ],
-    1
-  )
+      _c(
+        "footer",
+        {
+          staticClass:
+            "v-footer v-sheet theme--light v-footer--fixed v-footer--inset",
+          staticStyle: { left: "256px", right: "0px", bottom: "0px" },
+          attrs: { "data-v-be8dd950": "", "data-booted": "true" }
+        },
+        [
+          _c("div", {
+            staticClass: "spacer",
+            attrs: { "data-v-be8dd950": "" }
+          }),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "overline", attrs: { "data-v-be8dd950": "" } },
+            [
+              _vm._v("\n                Built with\n                "),
+              _c("i", {
+                staticClass:
+                  "v-icon notranslate mdi mdi-heart theme--light pink--text",
+                staticStyle: { "font-size": "16px" },
+                attrs: { "data-v-be8dd950": "", "aria-hidden": "true" }
+              })
+            ]
+          )
+        ]
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -853,31 +5453,18 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/images/header/quienes-somos.jpg":
-/*!***************************************************!*\
-  !*** ./resources/images/header/quienes-somos.jpg ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/quienes-somos.jpg?96e07c9acc12842ea5bc3720885725d7";
-
-/***/ }),
-
-/***/ "./resources/js/components/page/QuienesSomos.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/components/page/QuienesSomos.vue ***!
-  \*******************************************************/
+/***/ "./resources/js/components/page/Tienda.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/page/Tienda.vue ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true& */ "./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true&");
-/* harmony import */ var _QuienesSomos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QuienesSomos.vue?vue&type=script&lang=js& */ "./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& */ "./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
+/* harmony import */ var _Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tienda.vue?vue&type=template&id=8025b000&scoped=true& */ "./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true&");
+/* harmony import */ var _Tienda_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Tienda.vue?vue&type=script&lang=js& */ "./resources/js/components/page/Tienda.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -885,67 +5472,51 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _QuienesSomos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Tienda_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "3892019e",
+  "8025b000",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/page/QuienesSomos.vue"
+component.options.__file = "resources/js/components/page/Tienda.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
+/***/ "./resources/js/components/page/Tienda.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/page/Tienda.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./QuienesSomos.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tienda_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Tienda.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/Tienda.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tienda_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../node_modules/vue-loader/lib??vue-loader-options!./QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=style&index=0&id=3892019e&lang=scss&scoped=true&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_style_index_0_id_3892019e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-
-
-/***/ }),
-
-/***/ "./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true&":
-/*!**************************************************************************************************!*\
-  !*** ./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true& ***!
-  \**************************************************************************************************/
+/***/ "./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true& ***!
+  \********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/QuienesSomos.vue?vue&type=template&id=3892019e&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Tienda.vue?vue&type=template&id=8025b000&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/page/Tienda.vue?vue&type=template&id=8025b000&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_QuienesSomos_vue_vue_type_template_id_3892019e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tienda_vue_vue_type_template_id_8025b000_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

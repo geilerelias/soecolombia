@@ -38,6 +38,7 @@
                     >
                 </v-toolbar-title>
             </v-toolbar>
+
             <v-app-bar
                 :fixed="fixed"
                 class="white--text"
@@ -50,210 +51,42 @@
                     SOE Colombia
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-toolbar-items class="hidden-md-and-down">
-                    <v-btn text to="/">inicio</v-btn>
-                    <v-btn text to="/quienes-somos">¿Quienes somos?</v-btn>
-                    <v-menu offset-y open-on-hover>
+                <v-toolbar-items v-for="item in menu" :key="item.id" class="hidden-md-and-down">
+                    <v-btn v-if="!item.submenu" :to="item.to" text v-text="item.title"></v-btn>
+                    <v-menu v-else offset-y open-on-hover>
                         <template v-slot:activator="{ on }">
                             <v-btn
                                 v-on="on"
+                                :to="item.to"
                                 color="white"
                                 dark
                                 text
-                                to="/no-mas-violencia"
+                                v-text="item.title"
                             >
-                                No mas violencia
                             </v-btn>
                         </template>
                         <v-list>
                             <v-list-item
-                                v-for="(item, index) in itemsNoMasViolencia"
+                                v-for="(itemSubmenu, index) in item.submenu"
                                 :key="index"
-                                :href="item.link"
+                                :href="itemSubmenu.link"
                             >
                                 <v-list-item-title>{{
-                                        item.title
+                                        itemSubmenu.title
                                     }}
                                 </v-list-item-title>
                             </v-list-item>
                         </v-list>
                     </v-menu>
-
-                    <v-menu offset-y open-on-hover>
-                        <template v-slot:activator="{ on }">
-                            <v-btn
-                                v-on="on"
-                                color="white"
-                                dark
-                                text
-                                to="/empoderamiento"
-                            >
-                                Empoderamiento
-                            </v-btn>
-                        </template>
-                        <v-list>
-                            <v-list-item
-                                v-for="(item, index) in itemsEmpoderamiento"
-                                :key="index"
-                                :to="item.link"
-                            >
-                                <v-list-item-title>{{
-                                        item.title
-                                    }}
-                                </v-list-item-title>
-                            </v-list-item>
-                        </v-list>
-                    </v-menu>
-
-                    <v-menu offset-y open-on-hover>
-                        <template v-slot:activator="{ on }">
-                            <v-btn
-                                v-on="on"
-                                color="white"
-                                dark
-                                text
-                                to="/servicios"
-                            >
-                                Servicios
-                            </v-btn>
-                        </template>
-                        <v-list>
-                            <v-list-item
-                                v-for="(item, index) in itemsServicios"
-                                :key="index"
-                                :href="item.link"
-                            >
-                                <v-list-item-title>{{
-                                        item.title
-                                    }}
-                                </v-list-item-title>
-                            </v-list-item>
-                        </v-list>
-                    </v-menu>
-
-                    <v-btn text to="/tienda">Tienda</v-btn>
-                    <v-btn text to="/contactenos">Contáctenos</v-btn>
                 </v-toolbar-items>
+
                 <v-app-bar-nav-icon
                     class="hidden-lg-and-up"
                     color="white"
-                    @click="drawer=!drawer"
+                    @click="drawer ? setDrawer(false) : setDrawer(true)"
                 />
-
             </v-app-bar>
         </v-card>
-
-        <v-navigation-drawer v-model="drawer" app temporary>
-            <v-list>
-                <v-list-item>
-                    <v-list-item-avatar>
-                        <v-img src="https://cdn.vuetifyjs.com/images/john.png"></v-img>
-                    </v-list-item-avatar>
-                </v-list-item>
-
-                <v-list-item link>
-                    <v-list-item-content>
-                        <v-list-item-title class="title">
-                            John Leider
-                        </v-list-item-title>
-                        <v-list-item-subtitle>john@vuetifyjs.com</v-list-item-subtitle>
-                    </v-list-item-content>
-
-                    <v-list-item-action>
-                        <v-icon>mdi-menu-down</v-icon>
-                    </v-list-item-action>
-                </v-list-item>
-            </v-list>
-            <v-divider></v-divider>
-            <v-list
-                nav
-                dense
-            >
-                <v-list-item-group
-                    v-model="selectedItem"
-                    color="primary"
-                >
-                    <v-list-item
-                        v-for="(item, i) in items"
-                        :key="i"
-                    >
-                        <v-list-item-icon>
-                            <v-icon v-text="item.icon"></v-icon>
-                        </v-list-item-icon>
-
-                        <v-list-item-content>
-                            <v-list-item-title v-text="item.text"></v-list-item-title>
-                        </v-list-item-content>
-                    </v-list-item>
-                </v-list-item-group>
-            </v-list>
-            <v-list>
-                <v-list-item>
-                    <v-list-item-icon>
-                        <v-icon>mdi-home</v-icon>
-                    </v-list-item-icon>
-
-                    <v-list-item-title>Home</v-list-item-title>
-                </v-list-item>
-
-                <v-list-group
-                    :value="true"
-                    prepend-icon="mdi-account-circle"
-                >
-                    <template v-slot:activator>
-                        <v-list-item-title>Users</v-list-item-title>
-                    </template>
-
-                    <v-list-group
-                        :value="true"
-                        no-action
-                        sub-group
-                    >
-                        <template v-slot:activator>
-                            <v-list-item-content>
-                                <v-list-item-title>Admin</v-list-item-title>
-                            </v-list-item-content>
-                        </template>
-
-                        <v-list-item
-                            v-for="([title, icon], i) in admins"
-                            :key="i"
-                            link
-                        >
-                            <v-list-item-title v-text="title"></v-list-item-title>
-
-                            <v-list-item-icon>
-                                <v-icon v-text="icon"></v-icon>
-                            </v-list-item-icon>
-                        </v-list-item>
-                    </v-list-group>
-
-                    <v-list-group
-                        no-action
-                        sub-group
-                    >
-                        <template v-slot:activator>
-                            <v-list-item-content>
-                                <v-list-item-title>Actions</v-list-item-title>
-                            </v-list-item-content>
-                        </template>
-
-                        <v-list-item
-                            v-for="([title, icon], i) in cruds"
-                            :key="i"
-                            link
-                        >
-                            <v-list-item-title v-text="title"></v-list-item-title>
-
-                            <v-list-item-icon>
-                                <v-icon v-text="icon"></v-icon>
-                            </v-list-item-icon>
-                        </v-list-item>
-                    </v-list-group>
-                </v-list-group>
-            </v-list>
-
-        </v-navigation-drawer>
 
         <v-btn
             v-show="fab"
@@ -272,53 +105,28 @@
 </template>
 
 <script>
+
+import {mapMutations, mapState} from "vuex";
+
 export default {
+
     data() {
         return {
-            selectedItem: 0,
-            items: [
-                { text: 'My Files', icon: 'mdi-folder' },
-                { text: 'Shared with me', icon: 'mdi-account-multiple' },
-                { text: 'Starred', icon: 'mdi-star' },
-                { text: 'Recent', icon: 'mdi-history' },
-                { text: 'Offline', icon: 'mdi-check-circle' },
-                { text: 'Uploads', icon: 'mdi-upload' },
-                { text: 'Backups', icon: 'mdi-cloud-upload' },
-            ],
-            admins: [
-                ['Management', 'mdi-account-multiple-outline'],
-                ['Settings', 'mdi-cog-outline'],
-            ],
-            cruds: [
-                ['Create', 'mdi-plus-outline'],
-                ['Read', 'mdi-file-outline'],
-                ['Update', 'mdi-update'],
-                ['Delete', 'mdi-delete'],
-            ],
-            drawer: false,
             fab: false,
             fixed: false,
-            itemsNoMasViolencia: [
-                {title: "Sexismo", link: "/no-mas-violencia#sexismo"},
-                {
-                    title: "Un relato sobre vivencias guardadas de mujeres",
-                    link: "/no-mas-violencia#testimonios"
-                }
-            ],
-            itemsEmpoderamiento: [
-                {
-                    title: "Emprendimiento Económico",
-                    link: "/empoderamiento#emprendimiento-económico"
-                },
-                {title: "Testimonios", link: "/empoderamiento#testimonios"}
-            ],
-            itemsServicios: [{title: "Cursos", link: "/servicios#cursos"}],
             value: false
         };
     },
+    computed: {
+        ...mapState(["drawer","numero","menu"]),
 
+    },
 
     methods: {
+        ...mapMutations([
+            "setDrawer",
+            "aumentar"
+        ]),
         toTop() {
             this.$vuetify.goTo(0);
         },

@@ -10,7 +10,7 @@
     <meta name="description"
         content="Somos un equipo de profesionales que facilitamos la promoción al diálogo y a la reflexión entre mujeres.
         Propiciamos espacios idóneos para empoderar a la mujer construyendo un mejor futuro." />
-    <meta name="keywords" content="Maria Victoria Aponte Valverde, Jenis Sagbini, Mujer, Empoderamiento" />
+    <meta name="keywords" content="SOE Colombia, Maria Victoria Aponte Valverde, Jenis Sagbini, Mujer, Empoderamiento" />
     <meta name="author" content="Geiler Elias Radillo Sarmiento" />
 
     <meta name="copyright" content="Laravel - vue - vuetify" />

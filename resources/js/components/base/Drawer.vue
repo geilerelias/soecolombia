@@ -1,65 +1,109 @@
 <template>
-    <v-navigation-drawer v-model="local" app temporary>
-        <v-img
-            dark
-            height="200px"
-            src="images/fotos/bcbc1336-d827-4047-9804-13db455d6467.JPG"
-        >
-            <v-row align="end" class="lightbox white--text pa-2 fill-height">
-                <v-col>
-                    <div class="subheading">Maria Victoria Aponte</div>
-                    <div class="body-1">contacto@mvictoriaaponte.com</div>
-                </v-col>
-            </v-row>
-        </v-img>
-        {{ localDrawer }}
-        <!-- <v-list>
-            <v-list-item v-for="(item, i) in links" :key="i" :to="item.path">
-                <v-list-item-icon>
-                    <v-icon color="primary">{{ item.icon }}</v-icon>
-                </v-list-item-icon>
-
-                <v-list-item-content>
-                    <v-list-item-title>{{ item.name }}</v-list-item-title>
-                </v-list-item-content>
+    <v-navigation-drawer v-model="localDrawer" app temporary>
+        <v-list>
+            <v-list-item>
                 <v-list-item-avatar>
-                    <img :src="item.image" :alt="item.name" />
+                    <v-img :src="require('@/images/logo-soe-circular-morado.png')"></v-img>
                 </v-list-item-avatar>
             </v-list-item>
-        </v-list> -->
+
+            <v-list-item link>
+                <v-list-item-content>
+                    <v-list-item-title class="title">
+                        SOE Colombia
+                    </v-list-item-title>
+                    <v-list-item-subtitle>contacto@soecolombia.com</v-list-item-subtitle>
+                </v-list-item-content>
+            </v-list-item>
+        </v-list>
+        <v-divider></v-divider>
+
+        <v-list class="" >
+            <span v-for="item in menu">
+                <v-list-item color="primary" :to="item.to" v-if="!item.submenu">
+                    <v-list-item-icon>
+                        <v-icon>{{item.icon}}</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>{{item.title}}</v-list-item-title>
+                </v-list-item>
+                <v-list-group
+                    color="primary"
+                    no-action
+                    :prepend-icon="item.icon"
+                    v-else
+                >
+                    <template v-slot:activator>
+                        <v-list-item-content>
+                            <v-list-item-title>{{item.title}}</v-list-item-title>
+                        </v-list-item-content>
+                    </template>
+
+                    <v-list-item
+                        v-for="(submenu, i) in item.submenu"
+                        :key="i"
+                        link
+                        :to="submenu.link"
+                    >
+                        <v-list-item-title v-text="submenu.title"></v-list-item-title>
+                    </v-list-item>
+                </v-list-group>
+            </span>
+        </v-list>
     </v-navigation-drawer>
 </template>
+
 
 <script>
 import {mapMutations, mapState} from "vuex";
 
 export default {
-    data(){
-        local:false
-    },
-    watch: {
-        local: function (val) {
-            cosole.log("get",val);
-            return this.drawer;
-        },
+    data() {
+        return {
+            selectedItem: 0,
+            items: [
+                {text: 'My Files', icon: 'mdi-folder'},
+                {text: 'Shared with me', icon: 'mdi-account-multiple'},
+                {text: 'Starred', icon: 'mdi-star'},
+                {text: 'Recent', icon: 'mdi-history'},
+                {text: 'Offline', icon: 'mdi-check-circle'},
+                {text: 'Uploads', icon: 'mdi-upload'},
+                {text: 'Backups', icon: 'mdi-cloud-upload'},
+            ],
+            admins: [
+                ['Management', 'mdi-account-multiple-outline'],
+                ['Settings', 'mdi-cog-outline'],
+            ],
+            cruds: [
+                ['Create', 'mdi-plus-outline'],
+                ['Read', 'mdi-file-outline'],
+                ['Update', 'mdi-update'],
+                ['Delete', 'mdi-delete'],
+            ],
+        }
     },
     computed: {
-        ...mapState("drawer"),
+        ...mapState(["drawer", "menu"]),
         localDrawer: {
-            get: function () {
-                cosole.log("get");
+            get() {
                 return this.drawer;
             },
-            set: function (val) {
-                console.log("drawer", val);
+            set(val) {
                 this.setDrawer(val);
             }
         }
     },
     methods: {
-        ...mapMutations("setDrawer")
+        ...mapMutations([
+            "setDrawer",
+            "setPage",
+            "setColor",
+            "setFlat",
+            "setPagePrincipal"
+        ]),
     }
-};
+}
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

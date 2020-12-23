@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <!-- <drawer-component></drawer-component> -->
+        <drawer-component></drawer-component>
         <header-component></header-component>
 
         <transition>

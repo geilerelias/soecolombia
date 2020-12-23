@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import NProgress from "nprogress";
+import "nprogress/nprogress.css";
 
 Vue.use(VueRouter);
 
@@ -13,50 +14,50 @@ const withPrefix = (prefix, routes) =>
 let routes = [
     {
         path: "/",
-        component: () => import("./components/layout.vue"),
-        children: [{
-            path: "",
-            name: "inicio",
-            component: () => import("./components/page/Inicio"),
-        },
-        {
-            path: "/quienes-somos",
-            name: "quienes-somos",
-            component: () => import("./components/page/QuienesSomos.vue")
-        },
-        {
-            path: "/no-mas-violencia",
-            name: "no-mas-violencia",
-            component: () => import("./components/page/NoMasViolencia.vue")
-        },
-        {
-            path: "/empoderamiento",
-            name: "empoderamiento",
-            component: () => import("./components/page/Empoderamiento.vue")
-        },
-        {
-            path: "/servicios",
-            name: "servicios",
-            component: () => import("./components/page/Servicios.vue")
-        },
-        
-        {
-            path: "/tienda",
-            name: "tienda",
-            component: () => import("./components/page/Tienda.vue")
-        },
-        {
-            path: "/detalle-producto",
-            name: "detalle-producto",
-            component: () => import("./components/page/Tienda.vue")
-        },
-        {
-            path: "/contactenos",
-            name: "contactenos",
-            component: () => import("./components/page/Contactenos.vue")
-        }
-        ]
+        component: () => import("./components/AppLayout.vue"),
+        children: [
+            {
+                path: "",
+                name: "inicio",
+                component: () => import("./components/page/Inicio")
+            },
+            {
+                path: "/quienes-somos",
+                name: "quienes-somos",
+                component: () => import("./components/page/QuienesSomos.vue")
+            },
+            {
+                path: "/no-mas-violencia",
+                name: "no-mas-violencia",
+                component: () => import("./components/page/NoMasViolencia.vue")
+            },
+            {
+                path: "/empoderamiento",
+                name: "empoderamiento",
+                component: () => import("./components/page/Empoderamiento.vue")
+            },
+            {
+                path: "/servicios",
+                name: "servicios",
+                component: () => import("./components/page/Servicios.vue")
+            },
 
+            {
+                path: "/tienda",
+                name: "tienda",
+                component: () => import("./components/page/Tienda.vue")
+            },
+            {
+                path: "/detalle-producto",
+                name: "detalle-producto",
+                component: () => import("./components/page/Tienda.vue")
+            },
+            {
+                path: "/contactenos",
+                name: "contactenos",
+                component: () => import("./components/page/Contactenos.vue")
+            }
+        ]
     },
     {
         path: "/login",
@@ -66,6 +67,7 @@ let routes = [
             withAuth: true
         }
     },
+
     {
         path: "/register",
         name: "register",
@@ -77,7 +79,8 @@ let routes = [
     {
         path: "/send-notification",
         name: "send-notification",
-        component: () => import("./components/Auth/sendNotificationPassword.vue")
+        component: () =>
+            import("./components/Auth/sendNotificationPassword.vue")
     },
     {
         path: "/reset-password/:id",
@@ -85,17 +88,35 @@ let routes = [
         component: () => import("./components/Auth/ResetPassword.vue")
     },
     {
+        path: "/example",
+        component: () => import("./components/errors/ErrorLayout.vue"),
+        children: [
+            {
+                path: "",
+
+                name: "example",
+                component: () => import("./components/Example.vue")
+            }
+        ]
+    },
+    {
         path: "*",
-        name: "404",
-        component: () => import("./components/errors/404.vue")
+        component: () => import("./components/errors/ErrorLayout.vue"),
+        children: [
+            {
+                path: "",
+                name: "404",
+                component: () => import("./components/errors/404.vue")
+            }
+        ]
     }
 ];
 
 const router = new VueRouter({
     routes,
     mode: "history",
-     scrollBehavior() {
-        document.getElementById('app').scrollIntoView();
+    scrollBehavior() {
+        document.getElementById("app").scrollIntoView();
     }
 });
 
@@ -130,24 +151,23 @@ router.beforeEach((to, from, next) => {
 //opcion 1
 router.beforeResolve((to, from, next) => {
     if (to.name) {
-        NProgress.start()
+        NProgress.start();
     }
-    next()
+    next();
 });
 
-
 router.afterEach((to, from) => {
-    NProgress.done()
+    NProgress.done();
 });
 
 //opcion 2
 router.beforeEach((to, from, next) => {
-    NProgress.start()
-    next()
-})
+    NProgress.start();
+    next();
+});
 
 router.afterEach(() => {
-    NProgress.done()
-})
+    NProgress.done();
+});
 
 export default router;

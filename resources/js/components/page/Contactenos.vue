@@ -2,9 +2,9 @@
     <div class="mt-0">
         <section>
             <v-img
-                height="350"
-                gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
                 :src="require('@/images/header/contacto.jpg')"
+                gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
+                height="350"
             >
                 <v-row class="fill-height text-center align-center justify-center">
                     <v-col cols="12">
@@ -14,10 +14,10 @@
                             CONTÁCTENOS
                         </h1>
                         <v-breadcrumbs
-                            dark
-                            color="white"
-                            class="justify-center white--text"
                             :items="links"
+                            class="justify-center white--text"
+                            color="white"
+                            dark
                         ></v-breadcrumbs>
                     </v-col>
                 </v-row>
@@ -51,9 +51,9 @@
                             style="margin-left:-10"
                         >
                             <v-icon
+                                class="mt-6"
                                 color="primary"
                                 size="32"
-                                class="mt-6"
                                 v-text="item.icon"
                             />
                         </div>
@@ -86,22 +86,22 @@
                                     outlined
                                 ></v-text-field>
                                 <v-text-field
-                                    small
                                     label="Correo"
                                     outlined
+                                    small
                                     type="email"
                                 ></v-text-field>
 
                                 <v-text-field
-                                    outlined
                                     label="Tema"
+                                    outlined
                                 ></v-text-field>
                                 <v-textarea
-                                    outlined
                                     label="Descripción o Mensaje"
+                                    outlined
                                 ></v-textarea>
 
-                                <v-btn color="primary" outline dark>
+                                <v-btn color="primary" dark outlined>
                                     Enviar
                                 </v-btn>
                             </div>
