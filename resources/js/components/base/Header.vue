@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-card
-            :class="fixed ? 'mb-2' : 'mb-0'"
+            :class="[fixed  ? 'pt-12' : 'pt-0',$vuetify.breakpoint.smAndDown && fixed?'pt-12':'pt-0']"
             class="mb-0 pb-0"
             color="white"
             flat
@@ -86,6 +86,13 @@
                     @click="drawer ? setDrawer(false) : setDrawer(true)"
                 />
             </v-app-bar>
+<!--            <v-row
+                align="center"
+                justify="center"
+            >
+                <v-subheader>Offset Top</v-subheader>
+                {{ offsetTop }}
+            </v-row>-->
         </v-card>
 
         <v-btn
@@ -112,13 +119,14 @@ export default {
 
     data() {
         return {
+            offsetTop: 0,
             fab: false,
             fixed: false,
             value: false
         };
     },
     computed: {
-        ...mapState(["drawer","numero","menu"]),
+        ...mapState(["drawer", "numero", "menu"]),
 
     },
 
@@ -132,13 +140,23 @@ export default {
         },
         onScroll(e) {
             if (typeof window === "undefined") return;
-            const top = window.pageYOffset || e.target.scrollTop || 0;
-            if (top > 120) {
-                this.fab = true;
-                this.fixed = true;
+            this.offsetTop = window.pageYOffset || e.target.scrollTop || 0;
+            if (this.$vuetify.breakpoint.smAndDown) {
+                if (this.offsetTop > 88) {
+                    this.fab = true;
+                    this.fixed = true;
+                } else {
+                    this.fab = false;
+                    this.fixed = false;
+                }
             } else {
-                this.fab = false;
-                this.fixed = false;
+                if (this.offsetTop > 127) {
+                    this.fab = true;
+                    this.fixed = true;
+                } else {
+                    this.fab = false;
+                    this.fixed = false;
+                }
             }
         }
     }

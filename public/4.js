@@ -21,16 +21,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     "header-component": function headerComponent() {
-      return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./base/Header.vue */ "./resources/js/components/base/Header.vue"));
+      return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./base/Header.vue */ "./resources/js/components/base/Header.vue"));
     },
     "drawer-component": function drawerComponent() {
-      return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ./base/Drawer.vue */ "./resources/js/components/base/Drawer.vue"));
+      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./base/Drawer.vue */ "./resources/js/components/base/Drawer.vue"));
     },
     "footer-component": function footerComponent() {
-      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./base/Footer.vue */ "./resources/js/components/base/Footer.vue"));
+      return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./base/Footer.vue */ "./resources/js/components/base/Footer.vue"));
     }
   }
 });
@@ -108,7 +109,12 @@ var render = function() {
       _vm._v(" "),
       _c("header-component"),
       _vm._v(" "),
-      _c("transition", [_c("router-view")], 1),
+      _c(
+        "transition",
+        { attrs: { align: "center", justify: "center" } },
+        [_c("router-view")],
+        1
+      ),
       _vm._v(" "),
       _c("footer-component")
     ],

@@ -3,7 +3,8 @@
         <drawer-component></drawer-component>
         <header-component></header-component>
 
-        <transition>
+        <transition align="center"
+                    justify="center">
             <router-view></router-view>
         </transition>
 

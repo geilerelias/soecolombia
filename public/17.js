@@ -80,6 +80,7 @@ var render = function() {
     [
       _c(
         "v-carousel",
+        { attrs: { cycle: "", height: "75vh" } },
         _vm._l(_vm.items, function(item, i) {
           return _c("v-carousel-item", {
             key: i,

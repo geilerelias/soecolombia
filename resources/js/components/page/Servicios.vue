@@ -1,6 +1,6 @@
 <template>
     <div style="min-height:70vh">
-        <section> 
+        <section>
             <v-img
                     height="350"
                     gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
@@ -23,7 +23,7 @@
                     </v-row>
             </v-img>
         </section>
-        
+
         <section id="services" class="py-5">
             <div class="base-section-heading text-center my-12">
                 <v-avatar size="56" class="primary mb-4">
@@ -42,7 +42,7 @@
                 ></v-divider>
             </div>
             <v-container>
-                <v-row class="mb-5 align-center" v-for="(item,i) in services" :key="i" :id="item.title">
+                <v-row class="mb-5 align-center" v-for="(item,i) in services" :key="i" :id="item.id">
                     <v-col class="col-md-4 col-12" :class="i%2==0?'order-md-2':''">
                         <v-card outlined>
                             <v-img :src="item.image"
@@ -65,7 +65,7 @@
             </v-container>
         </section>
     </div>
-    
+
 </template>
 
 <script>
@@ -90,6 +90,7 @@
             ],
             services: [
                 {
+                    id:'capacitacion',
                     image: 'images/servicios/capacitacion 2.jpg',
                     title: 'CAPACITACIÓN',
                     content: 'Son acciones educativas de carácter no formal, que incluye mensajes inspiradores que tienen un alto contenido de motivación para favorecer el empoderamiento de las mujeres, buscando el recorrido de un camino que genera enseñanzas plenas de ambiciones para mujeres mostrando el manejo de emociones y saberes que conduzcan al conocimiento de si mismas, y fortalezcan su autoestima y autovaloración para el logro de sueños.<br>' +
@@ -112,6 +113,7 @@
                         '•\tElaboración de adornos con material Reciclable.<br>'
                 },
                 {
+                    id:'asesorias',
                     image: 'images/servicios/accesorias 2.jpg',
                     title: 'ASESORÍAS',
                     content: 'Con el fin de que las mujeres vean la vida de otra manera, es necesario que obtengan un marco empírico, dado desde la revisión de estudios sobre el maltrato contra las mujeres y testimonios de mujeres que experimentan la problemática de la violencia de género, para que ellas aprendan a tomar decisiones, que propicien el entendimiento de su propósito existencial, con temas que empoderen a las mujeres, como el manejo de los miedos, y la lucha por lograr sus sueños, desde el recorrido de sus emociones, y la autovaloración. <br>' +
@@ -130,6 +132,7 @@
                         '•\tOrientación espiritual: crecimiento en el discernimiento de la palabra de Dios.<br>'
                 },
                 {
+                    id:'investigacion',
                     image: 'images/servicios/investigacion 3.jpg',
                     title: 'INVESTIGACIÓN',
                     content: 'Se refiere a la actividad productora de nuevas ideas de las mujeres, teniendo como punto de partida, las indagaciones y exploraciones sobre la trayectoria de sus vivencias en todas las dimensiones de su ser, desde la infancia, la adolescencia, la juventud y la adultez. <br>' +
@@ -139,6 +142,7 @@
                         'Lo anterior, con el fin de conocer todo acerca de las relaciones entre los seres que hacen parte de la sociedad, para hacerle comprender a las mujeres que deben evitar desbordar sus pasiones, y saber manejar sus emociones. <br>'
                 },
                 {
+                    id:'circulos-de-poder',
                     image: 'images/servicios/circulo-de-poder 2.jpg',
                     title: 'CÍRCULOS DE PODER',
                     content: 'Implica la incorporación de vínculos entre mujeres, buscando la sororidad y el manejo de la escucha, así como el valor de la interacción entre las mujeres, la búsqueda de la autovaloración y el reconocimiento entre ellas, es un disparador de intercambio de conocimientos y vivencias que genera aprendizaje. <br>' +
@@ -146,6 +150,7 @@
                         'La interacción entre mujeres, incorpora la mirada que le devuelven las otras mujeres, porque el poder femenino le permite a la mujer mirarse a sí misma de otra manera, porque son afines en la misión existencial que como mujeres van incorporando a su esencia femenina y la autovaloración que van ganando conjuntamente, le permite reconocerse en la diferencia y valorarse. Además es importante ver en otras mujeres el modelo de valentía, de superación, de mujeres empoderadas. <br>'
                 },
                 {
+                    id:'coaching',
                     image: 'images/servicios/cohaching 2.jpg',
                     title: 'COACHING',
                     content: 'Importa, la búsqueda de un estilo de vida saludable, la trascendencia de una vida que deje huellas fuera del hogar de la mujer, para buscar la transformación de la subordinación al protagonismo, permitiendo que sus actuaciones le den paso a la lógica, a lo razonable, donde articulen el pensar, el sentir y el actuar, con el fin de hacer aportes valiosos para la autovaloración femenina. <br>' +
