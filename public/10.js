@@ -57,9 +57,113 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      testimonios: [{
+        name: 'Ana',
+        ocupation: 'Estudiante',
+        src: '/videos/testimonios/ana.mp4'
+      }, {
+        name: 'Angelica y Maria',
+        ocupation: 'Estudiantes',
+        src: '/videos/testimonios/angelica y maria.mp4'
+      }, {
+        name: 'Carolai',
+        ocupation: 'Estudiante',
+        src: '/videos/testimonios/carolai.mp4'
+      }, {
+        name: 'Juliana',
+        ocupation: 'Estudiante',
+        src: '/videos/testimonios/julliana.mp4'
+      }],
+      onboarding: 0,
       links: [{
         text: "Inicio",
         disabled: false,
@@ -70,6 +174,14 @@ __webpack_require__.r(__webpack_exports__);
         href: "/empoderamiento"
       }]
     };
+  },
+  methods: {
+    next: function next() {
+      this.onboarding = this.onboarding + 1 === this.length ? 0 : this.onboarding + 1;
+    },
+    prev: function prev() {
+      this.onboarding = this.onboarding - 1 < 0 ? this.length - 1 : this.onboarding - 1;
+    }
   }
 });
 
@@ -98,9 +210,9 @@ var render = function() {
           "v-img",
           {
             attrs: {
-              height: "350",
+              src: __webpack_require__(/*! @/images/header/empoderamiento.jpg */ "./resources/images/header/empoderamiento.jpg"),
               gradient: "to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)",
-              src: __webpack_require__(/*! @/images/header/empoderamiento.jpg */ "./resources/images/header/empoderamiento.jpg")
+              height: "350"
             }
           },
           [
@@ -130,7 +242,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("v-breadcrumbs", {
                       staticClass: "justify-center white--text",
-                      attrs: { dark: "", color: "white", items: _vm.links }
+                      attrs: { items: _vm.links, color: "white", dark: "" }
                     })
                   ],
                   1
@@ -169,6 +281,207 @@ var render = function() {
                 ]
               )
             ])
+          ],
+          1
+        )
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "section",
+      {
+        staticClass: "grey lighten-5",
+        staticStyle: { padding: "32px 0px" },
+        attrs: { id: "testimonios" }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "base-section-heading text-center mb-0" },
+          [
+            _c(
+              "v-avatar",
+              {
+                staticClass: "d-inline-flex mb-4",
+                attrs: { color: "primary", size: "56" }
+              },
+              [
+                _c("v-icon", { attrs: { dark: "", size: "28" } }, [
+                  _vm._v("mdi-chat-processing")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h1",
+              {
+                staticClass:
+                  "text-uppercase text-h5 font-weight-bold mb-2 text-center"
+              },
+              [_vm._v("\n                Testimonios\n            ")]
+            ),
+            _vm._v(" "),
+            _c("v-divider", {
+              staticClass: "primary mx-auto mb-6",
+              staticStyle: { "max-width": "28px" }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "v-window",
+          {
+            attrs: { "show-arrows": "" },
+            model: {
+              value: _vm.onboarding,
+              callback: function($$v) {
+                _vm.onboarding = $$v
+              },
+              expression: "onboarding"
+            }
+          },
+          _vm._l(_vm.testimonios, function(item, n) {
+            return _c(
+              "v-window-item",
+              { key: "card-" + n },
+              [
+                _c(
+                  "v-card",
+                  {
+                    attrs: { color: "grey lighten-5", flat: "", height: "50vh" }
+                  },
+                  [
+                    _c(
+                      "v-row",
+                      {
+                        staticClass: "fill-height",
+                        attrs: { align: "center", justify: "center" }
+                      },
+                      [
+                        _c(
+                          "div",
+                          [
+                            _c(
+                              "v-card",
+                              {
+                                staticClass: "secondary rounded-circle",
+                                attrs: { height: "40vh", width: "40vh" }
+                              },
+                              [
+                                _c(
+                                  "v-avatar",
+                                  { attrs: { height: "40vh", width: "40vh" } },
+                                  [
+                                    _c(
+                                      "video",
+                                      {
+                                        staticClass: "mb-0 pb-0",
+                                        attrs: { controls: "" }
+                                      },
+                                      [
+                                        _c("source", {
+                                          attrs: {
+                                            src: item.src,
+                                            type: "video/mp4"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h3",
+                              {
+                                staticClass:
+                                  "text-h6 font-weight-bold mb-0 text-center"
+                              },
+                              [_vm._v(" " + _vm._s(item.name) + " ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "text-body-2 font-weight-regular mb-0 text-center grey--text"
+                              },
+                              [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(item.ocupation) +
+                                    "\n                            "
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          }),
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "v-card-actions",
+          { staticClass: "justify-center grey" },
+          [
+            _c(
+              "v-item-group",
+              {
+                staticClass: "text-center",
+                attrs: { mandatory: "" },
+                model: {
+                  value: _vm.onboarding,
+                  callback: function($$v) {
+                    _vm.onboarding = $$v
+                  },
+                  expression: "onboarding"
+                }
+              },
+              _vm._l(_vm.testimonios, function(item, n) {
+                return _c("v-item", {
+                  key: "btn-" + n,
+                  scopedSlots: _vm._u(
+                    [
+                      {
+                        key: "default",
+                        fn: function(ref) {
+                          var active = ref.active
+                          var toggle = ref.toggle
+                          return [
+                            _c(
+                              "v-btn",
+                              {
+                                attrs: { "input-value": active, icon: "" },
+                                on: { click: toggle }
+                              },
+                              [_c("v-icon", [_vm._v("mdi-record")])],
+                              1
+                            )
+                          ]
+                        }
+                      }
+                    ],
+                    null,
+                    true
+                  )
+                })
+              }),
+              1
+            )
           ],
           1
         )
