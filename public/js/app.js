@@ -64665,13 +64665,13 @@ var routes = [{
     path: "/no-mas-violencia",
     name: "no-mas-violencia",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./components/page/NoMasViolencia.vue */ "./resources/js/components/page/NoMasViolencia.vue"));
+      return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./components/page/NoMasViolencia.vue */ "./resources/js/components/page/NoMasViolencia.vue"));
     }
   }, {
     path: "/empoderamiento",
     name: "empoderamiento",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./components/page/Empoderamiento.vue */ "./resources/js/components/page/Empoderamiento.vue"));
+      return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./components/page/Empoderamiento.vue */ "./resources/js/components/page/Empoderamiento.vue"));
     }
   }, {
     path: "/servicios",
@@ -64695,14 +64695,14 @@ var routes = [{
     path: "/contactenos",
     name: "contactenos",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./components/page/Contactenos.vue */ "./resources/js/components/page/Contactenos.vue"));
+      return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./components/page/Contactenos.vue */ "./resources/js/components/page/Contactenos.vue"));
     }
   }]
 }, {
   path: "/login",
   name: "login",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./components/Auth/Login.vue */ "./resources/js/components/Auth/Login.vue"));
+    return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./components/Auth/Login.vue */ "./resources/js/components/Auth/Login.vue"));
   },
   meta: {
     withAuth: true
@@ -64711,7 +64711,7 @@ var routes = [{
   path: "/register",
   name: "register",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./components/Auth/Register.vue */ "./resources/js/components/Auth/Register.vue"));
+    return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./components/Auth/Register.vue */ "./resources/js/components/Auth/Register.vue"));
   },
   meta: {
     withAuth: true
@@ -64720,13 +64720,13 @@ var routes = [{
   path: "/send-notification",
   name: "send-notification",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ./components/Auth/sendNotificationPassword.vue */ "./resources/js/components/Auth/sendNotificationPassword.vue"));
+    return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ./components/Auth/sendNotificationPassword.vue */ "./resources/js/components/Auth/sendNotificationPassword.vue"));
   }
 }, {
   path: "/reset-password/:id",
   name: "reset-password",
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./components/Auth/ResetPassword.vue */ "./resources/js/components/Auth/ResetPassword.vue"));
+    return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ./components/Auth/ResetPassword.vue */ "./resources/js/components/Auth/ResetPassword.vue"));
   }
 }, {
   path: "/example",
@@ -64737,7 +64737,7 @@ var routes = [{
     path: "",
     name: "example",
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ./components/Example.vue */ "./resources/js/components/Example.vue"));
+      return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./components/Example.vue */ "./resources/js/components/Example.vue"));
     }
   }]
 }, {

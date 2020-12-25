@@ -3,10 +3,12 @@
         <drawer-component></drawer-component>
         <header-component></header-component>
 
-        <transition align="center"
-                    justify="center">
-            <router-view></router-view>
-        </transition>
+        <v-main style="min-height: 100vh">
+            <transition name="fade"
+                        mode="out-in" duration="400">
+                <router-view></router-view>
+            </transition>
+        </v-main>
 
         <footer-component></footer-component>
     </v-app>
