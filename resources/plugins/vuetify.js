@@ -1,12 +1,18 @@
-import Vue from "vue";
-import Vuetify from "vuetify";
+//material icons
+import "@mdi/font/css/materialdesignicons.css";
+// Ensure you are using css-loader
+
+//vuetify
 import "vuetify/dist/vuetify.min.css";
 
-Vue.use(Vuetify);
+import Vue from 'vue'
+import Vuetify from 'vuetify'
+
+Vue.use(Vuetify)
 
 const opts = {
     icons: {
-        iconfont: "mdi"
+        iconfont: 'mdi', // default - only for display purposes
     },
     theme: {
         themes: {
@@ -30,6 +36,6 @@ const opts = {
             }
         }
     }
-};
+}
 
-export default new Vuetify(opts);
+export default new Vuetify(opts)
