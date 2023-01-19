@@ -1,6 +1,6 @@
 <template>
     <app-layout>
-    <section>
+        <section>
             <v-img
                 height="350"
                 gradient="to top, rgba(5, 11, 31, 0.8), rgba(31, 5, 27, 0.8)"
@@ -63,7 +63,8 @@
                                         @click="e6 = index - 1"
                                     >
                                         <v-icon
-                                            >mdi-skip-previous-outline</v-icon
+                                        >mdi-skip-previous-outline
+                                        </v-icon
                                         >
                                     </v-btn>
                                     <v-btn
@@ -229,7 +230,7 @@
                     <v-toolbar-title v-text="comic.title"></v-toolbar-title>
                 </v-toolbar>
                 <v-card elevation="0" max-width="700" class="mt-4 mx-auto">
-                    <v-img :src="comic.image"> </v-img>
+                    <v-img :src="comic.image"></v-img>
 
                     <v-card-actions>
                         <v-spacer></v-spacer>
@@ -248,18 +249,16 @@
 
         <section id="sexismo">
             <v-container>
-                <v-card class="pa-0" color="black">
-                    <video
-                        ref="videoPlayer"
-                        autoplay
-                        controls
-                        class="mb-0 pb-0"
-                    >
-                        <source
-                            src="videos/Video 7. Prácticas sexistas.mp4"
-                            type="video/mp4"
-                        />
-                    </video>
+                <v-card elevation="12">
+                    <div class="iframe-container mx-auto rounded-lg">
+                        <iframe class="rounded-lg"
+                                src="https://drive.google.com/file/d/1kGqwA0qo9LJa7Ba27amO0AlwhlBw4P1z/preview"
+                                style="border: 0px; display: block;"
+                                allowfullscreen=""
+                                allow="autoplay"
+                                loading="lazy">
+                        </iframe>
+                    </div>
                 </v-card>
             </v-container>
         </section>
@@ -648,16 +647,16 @@
                             <!-- /wp:paragraph -->
                         </div>
                     </li>
-                     <li class="primary--text subtitle-1 font-weight-black">
+                    <li class="primary--text subtitle-1 font-weight-black">
                         <p>
-                           SIGNIFICADO DE LA EXPERIENCIA
+                            SIGNIFICADO DE LA EXPERIENCIA
                         </p>
 
                         <div
                             class="font-weight-medium black--text body-1 text-justify"
                         >
                         </div>
-                     </li>
+                    </li>
                 </ol>
             </v-container>
         </section>

@@ -4,11 +4,11 @@
             <v-container fluid>
                 <v-row>
                     <v-col cols="12" md="6">
-                        <img
+                        <v-img
                             alt="John"
-                            class="img-flotante"
+                            class="img-flotante mt-1"
                             height="300"
-                            src="src/images/null/Identificador-blanco.png"
+                            src="/src/images/null/Identificador-blanco.png"
                             style="float: left;float: left;
                                     margin-right: -80px;
                                     margin-top: -30px;"

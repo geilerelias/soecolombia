@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a0dff5-b756-42f2-80cd-2fed9b7a6a7c" name="Changes" comment="" />
+    <list default="true" id="97a0dff5-b756-42f2-80cd-2fed9b7a6a7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/videos/Jenis Sagbini con imagenes.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 1. Presentación.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 1. Presentación.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 10. Conciencia y sueños.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 10. Conciencia y sueños.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 2. Miedos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 2. Miedos.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 3. Mujer holistica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 3. Mujer holistica.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento (1).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 5. Cambiar paradigmas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 5. Cambiar paradigmas.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 6. Estereotipos culturales.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 6. Estereotipos culturales.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 7. Prácticas sexistas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 7. Prácticas sexistas.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 8. Quien soy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 8. Quien soy.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 9. Papel de la mujer en la sociedad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/videos/Video 9. Papel de la mujer en la sociedad.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Base/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Contactenos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Contactenos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Detalle-producto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Detalle-producto.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Empoderamiento.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Empoderamiento.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/QuienesSomos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/QuienesSomos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Tienda.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Tienda.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,32 +178,39 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2KR8REbGS2VAVz6LDALDVkoSrNW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/xampp-2/htdocs/app/soe/resources/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2022.2.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/xampp-2/htdocs/app/soecolombia/resources/videos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2022.2.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp-2\htdocs\app\soecolombia\resources\videos" />
       <recent name="F:\xampp-2\htdocs\app\soe\resources\images" />
       <recent name="F:\xampp-2\htdocs\app\soe\resources\js\Pages" />
       <recent name="F:\xampp-2\htdocs\app\soe\public" />
       <recent name="F:\xampp-2\htdocs\app\soe\resources" />
-      <recent name="F:\xampp-2\htdocs\app\soe\resources\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xampp-2\htdocs\app\soecolombia\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,10 +229,14 @@
       <updated>1673926025604</updated>
       <workItem from="1673926027065" duration="10034000" />
       <workItem from="1674074403251" duration="1290000" />
+      <workItem from="1674086109156" duration="7308000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

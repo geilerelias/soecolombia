@@ -3,7 +3,7 @@
         <v-list>
             <v-list-item>
                 <v-list-item-avatar>
-                    <v-img :src="require('@/images/logo-soe-circular-morado.png')"></v-img>
+                    <v-img src="/src/images/logo-soe-circular-morado.png"></v-img>
                 </v-list-item-avatar>
             </v-list-item>
 

@@ -5,10 +5,8 @@ import '../css/app.css';
 
 import Vue from 'vue'
 import {createInertiaApp, Head, Link, router} from '@inertiajs/vue2'
-import {resolvePageComponent} from 'laravel-vite-plugin/inertia-helpers';
 
 import {ZiggyVue} from '../../vendor/tightenco/ziggy/dist/vue.m';
-import {Ziggy} from './ziggy.js';
 
 
 import vuetify from '../plugins/vuetify'
@@ -16,13 +14,9 @@ import store from '../plugins/store'
 
 import PerfectScrollbar from 'vue2-perfect-scrollbar'
 import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css'
+import route from "ziggy-js/src/js";
 
 Vue.use(PerfectScrollbar)
-
-import.meta.glob([
-    '../images/**',
-]);
-
 Vue.prototype.$route = route
 
 // ziggy end here

@@ -28,19 +28,18 @@
 
         <section>
             <v-container>
-                <v-card class="pa-0" color="black">
-                    <video
-                        ref="videoPlayer"
-                        autoplay
-                        class="mb-0 pb-0"
-                        controls
-                    >
-                        <source
-                            src="videos/Jenis Sagbini con imagenes.mp4"
-                            type="video/mp4"
-                        />
-                    </video>
+                <v-card elevation="12">
+                    <div class="iframe-container mx-auto rounded-lg" >
+                        <iframe class="rounded-lg"
+                                src="https://drive.google.com/file/d/18nyKz2KBNov0SKrv4prHmP5n4TKfcqjA/preview"
+                                style="border: 0px; display: block;"
+                                allowfullscreen=""
+                                allow="autoplay"
+                                loading="lazy">
+                        </iframe>
+                    </div>
                 </v-card>
+
             </v-container>
         </section>
 

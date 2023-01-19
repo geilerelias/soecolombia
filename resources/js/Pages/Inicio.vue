@@ -12,12 +12,15 @@
         </v-carousel>
         <v-container>
             <v-card class="pa-0" color="black">
-                <video ref="videoPlayer" autoplay controls class="mb-0 pb-0">
-                    <source
-                        src="videos/Video 1. Presentación.mp4"
-                        type="video/mp4"
-                    />
-                </video>
+                <div class="iframe-container mx-auto rounded-lg" elevation="12">
+                    <iframe class="rounded-lg"
+                            src="https://drive.google.com/file/d/1bklOWtT6JhymJV5vReg9z9EMCx17EXzq/preview"
+                            style="border: 0px; display: block;"
+                            allowfullscreen=""
+                            loading="lazy">
+                    </iframe>
+                </div>
+
             </v-card>
         </v-container>
     </app-layout>
@@ -60,4 +63,12 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.iframe-container iframe {
+    border: 0;
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+</style>

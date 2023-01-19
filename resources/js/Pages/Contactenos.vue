@@ -23,7 +23,7 @@
                 </v-row>
             </v-img>
         </section>
-        <v-container class="mt-12">
+        <v-container class="my-12">
             <v-row>
                 <v-col cols="12" md="6">
                     <h3
@@ -146,7 +146,7 @@ export default {
                 {
                     icon: "mdi-email",
                     name: "Correos",
-                    content: `contacto@mvictoriaaponte.com<br/>contacto@soecolombia.com <br /> contacto@jenissagbini.com`
+                    content: `contacto@mvictoriaaponte.co <br/> contacto@jenissagbini.com`
                 }
             ]
         };

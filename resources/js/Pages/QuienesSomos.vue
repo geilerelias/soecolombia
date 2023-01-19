@@ -242,12 +242,17 @@
         </div> -->
 
         <v-container>
-            <video ref="videoPlayer" autoplay class="mb-0 pb-0" controls>
-                <source
-                    src="videos/Video 9. Papel de la mujer en la sociedad.mp4"
-                    type="video/mp4"
-                />
-            </video>
+            <v-card elevation="12">
+                <div class="iframe-container mx-auto rounded-lg" >
+                    <iframe class="rounded-lg"
+                            src="https://drive.google.com/file/d/1e1gQMH0ebgtZ7vbYN5pVKiExpV6VwmCp/preview"
+                            style="border: 0px; display: block;"
+                            allowfullscreen=""
+                            allow="autoplay"
+                            loading="lazy">
+                    </iframe>
+                </div>
+            </v-card>
         </v-container>
     </app-layout>
 </template>

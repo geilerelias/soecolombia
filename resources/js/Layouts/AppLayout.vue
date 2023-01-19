@@ -37,6 +37,14 @@ video {
     width: 100%;
     height: auto;
 }
+
+.iframe-container iframe {
+    border: 0;
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
 </style>
 
 
