@@ -3,7 +3,7 @@
         <v-list>
             <v-list-item>
                 <v-list-item-avatar>
-                    <v-img src="/src/images/logo-soe-circular-morado.png"></v-img>
+                    <v-img src="/src/images/null/logo-soe-circular-morado.png"></v-img>
                 </v-list-item-avatar>
             </v-list-item>
 
@@ -12,7 +12,7 @@
                     <v-list-item-title class="title">
                         SOE Colombia
                     </v-list-item-title>
-                    <v-list-item-subtitle>contacto@soecolombia.com</v-list-item-subtitle>
+                    <v-list-item-subtitle>soe@mvictoriaaponte.co</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
         </v-list>
@@ -20,21 +20,25 @@
 
         <v-list class="" >
             <span v-for="item in menu">
-                <v-list-item color="primary" @click="router.visit(route(item.to))" v-if="!item.submenu">
+                <v-list-item v-if="!item.submenu" color="secondary lighten-3 "
+                             link
+                             :class="route().current(item.to)?'secondary lighten-3  v-list-item--active':''"
+                             @click="redirigir(item.to)">
                     <v-list-item-icon>
                         <v-icon>{{item.icon}}</v-icon>
                     </v-list-item-icon>
                     <v-list-item-title>{{item.title}}</v-list-item-title>
                 </v-list-item>
+
                 <v-list-group
                     color="primary"
-                    no-action
+                    :class="route().current(item.to)?'secondary lighten-3   v-list-item--active':''"
                     :prepend-icon="item.icon"
                     v-else
                 >
                     <template v-slot:activator>
-                        <v-list-item-content>
-                            <v-list-item-title>{{item.title}}</v-list-item-title>
+                        <v-list-item-content @click="redirigir(item.to)">
+                            <v-list-item-title >{{item.title}}</v-list-item-title>
                         </v-list-item-content>
                     </template>
 
@@ -42,7 +46,7 @@
                         v-for="(submenu, i) in item.submenu"
                         :key="i"
                         link
-                        :to="submenu.link"
+                        @click="redirigir(submenu.link)"
                     >
                         <v-list-item-title v-text="submenu.title"></v-list-item-title>
                     </v-list-item>
@@ -54,6 +58,8 @@
 
 <script>
 import {mapMutations, mapState} from "vuex";
+import {router} from '@inertiajs/vue2'
+import route from "ziggy-js/src/js";
 
 export default {
 
@@ -69,6 +75,10 @@ export default {
         }
     },
     methods: {
+        route,
+        redirigir(to) {
+            router.visit(route(to));
+        },
         ...mapMutations([
             "setDrawer",
             "setPage",

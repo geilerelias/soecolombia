@@ -56,10 +56,7 @@ export default {
             ]
         };
     },
-    mounted() {
-        console.log("mounted");
-        this.$refs.videoPlayer.play();
-    }
+
 };
 </script>
 

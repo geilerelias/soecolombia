@@ -109,7 +109,6 @@
                                     <v-img
                                         contain
                                         :src="comic.image"
-                                        lazy-src="https://i.picsum.photos/id/300/10/6.jpg"
                                         :aspect-ratio="5 / 8"
                                     >
                                     </v-img>

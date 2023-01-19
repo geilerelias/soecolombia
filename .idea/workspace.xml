@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97a0dff5-b756-42f2-80cd-2fed9b7a6a7c" name="Changes" comment="agregando videos desde drive">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Example.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/app-365c5657.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/assets/app-a0c0d04b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Base/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plugins/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +205,7 @@
       <updated>1673926025604</updated>
       <workItem from="1673926027065" duration="10034000" />
       <workItem from="1674074403251" duration="1290000" />
-      <workItem from="1674086109156" duration="8332000" />
+      <workItem from="1674086109156" duration="14965000" />
     </task>
     <task id="LOCAL-00001" summary="agregando videos desde drive">
       <created>1674096837212</created>
@@ -204,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674096837212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agregando videos desde drive">
+      <created>1674098064735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674098064735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

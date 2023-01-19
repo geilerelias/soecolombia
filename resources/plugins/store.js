@@ -25,7 +25,7 @@ const store = new Vuex.Store({
             },
             {
                 to: "no-mas-violencia",
-                icon: "mdi-hand-left",
+                icon: "mdi-hand-back-left-off",
                 title: "No mas violencia",
                 submenu: [
                     { title: "Sexismo", link: "/no-mas-violencia#sexismo" },
@@ -54,7 +54,13 @@ const store = new Vuex.Store({
                 to: "servicios",
                 icon: "mdi-face-agent",
                 title: "Servicios",
-                submenu: [{ title: "Cursos", link: "/servicios#cursos" }]
+                submenu: [
+                    { title: "Capacitación", link: "/servicios#capacitacion" },
+                    { title: "Asesorías", link: "/servicios#asesorias" },
+                    { title: "Investigación", link: "/servicios#investigacion" },
+                    { title: "Círculos de poder", link: "/servicios#circulos-de-poder" },
+                    { title: "Coaching", link: "/servicios#coaching" },
+                ]
             },
             {
                 to: "tienda",
