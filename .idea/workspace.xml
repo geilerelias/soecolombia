@@ -4,43 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a0dff5-b756-42f2-80cd-2fed9b7a6a7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/videos/Jenis Sagbini con imagenes.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 1. Presentación.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 1. Presentación.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 10. Conciencia y sueños.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 10. Conciencia y sueños.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 2. Miedos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 2. Miedos.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 3. Mujer holistica.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 3. Mujer holistica.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento (1).mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 4. Miedos Vs empoderamiento.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 5. Cambiar paradigmas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 5. Cambiar paradigmas.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 6. Estereotipos culturales.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 6. Estereotipos culturales.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 7. Prácticas sexistas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 7. Prácticas sexistas.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 8. Quien soy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 8. Quien soy.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 9. Papel de la mujer en la sociedad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/videos/Video 9. Papel de la mujer en la sociedad.mp4" afterDir="false" />
+    <list default="true" id="97a0dff5-b756-42f2-80cd-2fed9b7a6a7c" name="Changes" comment="agregando videos desde drive">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Drawer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Base/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Base/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Contactenos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Contactenos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Detalle-producto.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Detalle-producto.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Empoderamiento.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Empoderamiento.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Inicio.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/NoMasViolencia.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/QuienesSomos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/QuienesSomos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Tienda.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Tienda.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,8 +195,16 @@
       <updated>1673926025604</updated>
       <workItem from="1673926027065" duration="10034000" />
       <workItem from="1674074403251" duration="1290000" />
-      <workItem from="1674086109156" duration="7308000" />
+      <workItem from="1674086109156" duration="8332000" />
     </task>
+    <task id="LOCAL-00001" summary="agregando videos desde drive">
+      <created>1674096837212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674096837212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,5 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="agregando videos desde drive" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando videos desde drive" />
   </component>
 </project>
